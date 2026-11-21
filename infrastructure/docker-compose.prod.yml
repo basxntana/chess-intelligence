@@ -1,0 +1,46 @@
+# Production stack: docker compose --env-file infrastructure/.env -f infrastructure/docker-compose.prod.yml up -d --build
+# Secrets come only from the env file (never committed); see infrastructure/.env.example and docs/DEPLOYMENT.md.
+services:
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: chess
+      POSTGRES_PASSWORD: ${POSTGRES_PASSWORD:?set POSTGRES_PASSWORD in the env file}
+      POSTGRES_DB: chess_intelligence
+    volumes: [pgdata:/var/lib/postgresql/data]
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U chess -d chess_intelligence"]
+      interval: 5s
+      retries: 20
+    # no published port: only the backend reaches the database
+
+  backend:
+    build: ../backend
+    restart: unless-stopped
+    depends_on:
+      db: { condition: service_healthy }
+    environment:
+      DATABASE_URL: postgresql+psycopg://chess:${POSTGRES_PASSWORD}@db:5432/chess_intelligence
+      CORS_ORIGINS: '["${PUBLIC_APP_URL:?set PUBLIC_APP_URL}"]'
+      ANALYSIS_WORKERS: ${ANALYSIS_WORKERS:-2}
+      MAX_QUEUED_JOBS: ${MAX_QUEUED_JOBS:-20}
+      ANTHROPIC_API_KEY: ${ANTHROPIC_API_KEY:-}  # optional: enables "Ask Claude"
+      LOG_LEVEL: ${LOG_LEVEL:-INFO}
+    ports: ["8000:8000"]
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health')"]
+      interval: 10s
+      retries: 5
+
+  frontend:
+    build:
+      context: ../frontend
+      args:
+        NEXT_PUBLIC_API_URL: ${PUBLIC_API_URL:?set PUBLIC_API_URL}
+    restart: unless-stopped
+    depends_on: [backend]
+    ports: ["3000:3000"]
+
+volumes:
+  pgdata:
