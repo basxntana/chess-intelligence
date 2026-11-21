@@ -2,6 +2,41 @@
 
 Research-oriented chess analysis platform with a custom engine. See `docs/` for PRD, TRD and roadmap.
 
+## Results
+
+Measured on an Apple M2 with engine v0.1.0, using Stockfish 19 only as the reference for benchmarking. Full details and
+reproduction steps are in [`research/reports/FINAL_REPORT.md`](research/reports/FINAL_REPORT.md).
+
+| | |
+|---|---|
+| Playing strength | **≈1670 Elo** (95% CI 1550–1780) at 0.5 s/move, on Stockfish's UCI_Elo scale (not FIDE). 48 games: 84% vs 1320, 81% vs 1500, 41% vs 1700 |
+| Best-move agreement with Stockfish | **55%** top-1, **81%** top-3, 57 cp avg loss across 180 positions |
+| Alpha-beta vs minimax | **7.7× fewer nodes** (24,249 vs 185,934) with identical scores; move ordering cuts a further 80% at depth 4 |
+| Tactic detection | precision/recall 1.00 on the 27-case set, 0 rule violations on 200 random positions |
+| Explanation grounding | 1,622 rule-based sentences, all grounded in engine facts; 88% of "wins X pawns" claims and 5/5 mate claims confirmed by Stockfish |
+| Speed | ~15,700 nodes/s in pure Python (depth ≈4.3 at 1 s/move) |
+| Tests | 423 automated tests pass |
+
+**Engine vs Stockfish depth 18** (1 s per move):
+
+| Category | Best move | Top-3 | Avg cp loss | Blunders (≥200 cp) |
+|---|---:|---:|---:|---:|
+| Opening | 22% | 55% | 33 | 0% |
+| Random | 80% | 90% | 31 | 5% |
+| Tactical | 75% | 92% | 103 | 17% |
+| Endgame | 32% | 82% | 36 | 5% |
+| **All** | **55%** | **81%** | **57** | **8%** |
+
+The opening and endgame rows show low agreement but small losses, because those positions often have several equally
+good moves. The real weakness is tactics that need more than about 4 plies of search. The next steps are a native core
+(C++/Rust) and deeper pruning (null-move, LMR, PVS).
+
+**Limitations:**
+- The tactic test set was written alongside the detectors, so it works as a regression check, not an independent
+  accuracy measure.
+- The Claude explanation path has not been run against the live API.
+- The app has not been deployed publicly.
+
 ## Status
 
 | Phase | State |
