@@ -1,0 +1,150 @@
+@import "tailwindcss";
+
+/* Design tokens: warm neutrals that sit well next to the brown board, one amber accent. */
+:root {
+  --bg: #f7f5f2;
+  --surface: #ffffff;
+  --surface-2: #f1eee9;
+  --border: #e4ded5;
+  --fg: #1f1b16;
+  --muted: #6f665c;
+  --accent: #b45309;
+  --accent-soft: #fdf1df;
+  --accent-fg: #ffffff;
+  --good: #15803d;
+  --bad: #b91c1c;
+  --bad-soft: #fdecec;
+  --ring: #d97706;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #14120f;
+    --surface: #1d1a16;
+    --surface-2: #26221d;
+    --border: #353029;
+    --fg: #f1ece4;
+    --muted: #a59b8e;
+    --accent: #f59e0b;
+    --accent-soft: #3a2a12;
+    --accent-fg: #1f1b16;
+    --good: #4ade80;
+    --bad: #f87171;
+    --bad-soft: #3b1717;
+    --ring: #f59e0b;
+  }
+}
+
+@theme inline {
+  --color-bg: var(--bg);
+  --color-surface: var(--surface);
+  --color-surface-2: var(--surface-2);
+  --color-line: var(--border);
+  --color-fg: var(--fg);
+  --color-muted: var(--muted);
+  --color-accent: var(--accent);
+  --color-accent-soft: var(--accent-soft);
+  --color-accent-fg: var(--accent-fg);
+  --color-good: var(--good);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
+  --color-ring: var(--ring);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-geist-sans), system-ui, sans-serif;
+}
+
+/* Squares highlighted when hovering a tactic or strategic feature. */
+cg-board square.ci-mark {
+  background: rgba(245, 158, 11, 0.55);
+}
+
+/* ---------- Board: own theme (replaces chessground's brown) ----------
+   Ivory and sage squares with a faint grain, set in a walnut frame that carries the coordinates
+   outside the squares, so they stay readable on any square colour. */
+.ci-frame {
+  --sq-light: #efe6d4;
+  --sq-dark: #7f9479;
+  --frame: #3a2a1f;
+  --frame-edge: #241a13;
+  --coord: #f1e3c8;
+  padding: 24px;
+  border-radius: 14px;
+  background:
+    repeating-linear-gradient(100deg, rgba(255, 255, 255, 0.025) 0 2px, transparent 2px 7px),
+    linear-gradient(145deg, #4a3527, var(--frame) 55%, var(--frame-edge));
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.08), inset 0 0 0 1px rgba(0, 0, 0, 0.35), 0 10px 30px -12px rgba(0, 0, 0, 0.45);
+}
+
+.ci-frame cg-board {
+  border-radius: 3px;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.35), 0 0 0 4px rgba(241, 227, 200, 0.12);
+  background:
+    repeating-linear-gradient(87deg, rgba(0, 0, 0, 0.018) 0 1px, transparent 1px 5px),
+    conic-gradient(var(--sq-dark) 90deg, var(--sq-light) 90deg 180deg, var(--sq-dark) 180deg 270deg, var(--sq-light) 270deg)
+      0 0 / 25% 25%;
+}
+
+/* Coordinates: in the frame, large, high-contrast. */
+.ci-frame .cg-wrap coords {
+  opacity: 1;
+  color: var(--coord) !important;
+  font-family: var(--font-geist-mono), ui-monospace, monospace;
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+.ci-frame .cg-wrap coords coord {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--coord) !important;
+}
+.ci-frame .cg-wrap coords.ranks {
+  left: -24px;
+  top: 0;
+  width: 24px;
+  height: 100%;
+}
+.ci-frame .cg-wrap coords.ranks coord {
+  transform: none;
+}
+.ci-frame .cg-wrap coords.files {
+  left: 0;
+  bottom: -24px;
+  width: 100%;
+  height: 24px;
+  text-transform: lowercase;
+}
+
+/* Interaction colours tuned to the palette and the amber accent. */
+.ci-frame cg-board square.last-move {
+  background-color: rgba(232, 170, 60, 0.42);
+}
+.ci-frame cg-board square.selected {
+  background-color: rgba(232, 170, 60, 0.6);
+}
+.ci-frame cg-board square.move-dest {
+  background: radial-gradient(rgba(36, 26, 19, 0.38) 21%, transparent 23%);
+}
+.ci-frame cg-board square.oc.move-dest {
+  background: radial-gradient(transparent 78%, rgba(36, 26, 19, 0.38) 80%);
+}
+.ci-frame cg-board square.move-dest:hover {
+  background: rgba(232, 170, 60, 0.35);
+}
+.ci-frame cg-board square.check {
+  background: radial-gradient(ellipse at center, rgba(220, 38, 38, 0.95) 0%, rgba(220, 38, 38, 0.6) 30%, transparent 80%);
+}
+
+@media (max-width: 420px) {
+  .ci-frame { padding: 18px; }
+  .ci-frame .cg-wrap coords { font-size: 11px; }
+  .ci-frame .cg-wrap coords.ranks { left: -18px; width: 18px; }
+  .ci-frame .cg-wrap coords.files { bottom: -18px; height: 18px; }
+}
