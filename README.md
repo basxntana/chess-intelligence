@@ -2,6 +2,8 @@
 
 Research-oriented chess analysis platform with a custom engine. See `docs/` for PRD, TRD and roadmap.
 
+![Chess Intelligence web app: the engine finds Qxf7# and ranks candidate moves](docs/images/app.png)
+
 ## Results
 
 Measured on an Apple M2 with engine v0.1.0, using Stockfish 19 only as the reference for benchmarking. Full details and
@@ -16,6 +18,10 @@ reproduction steps are in [`research/reports/FINAL_REPORT.md`](research/reports/
 | Explanation grounding | 1,622 rule-based sentences, all grounded in engine facts; 88% of "wins X pawns" claims and 5/5 mate claims confirmed by Stockfish |
 | Speed | ~15,700 nodes/s in pure Python (depth ≈4.3 at 1 s/move) |
 | Tests | 423 automated tests pass |
+
+![Best-move and top-3 agreement with Stockfish per position category](docs/images/agreement.svg)
+
+![Score against Stockfish at UCI_Elo 1320, 1500 and 1700](docs/images/elo.svg)
 
 **Engine vs Stockfish depth 18** (1 s per move):
 
