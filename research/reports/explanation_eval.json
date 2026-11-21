@@ -1,0 +1,4430 @@
+{
+ "depth": 4,
+ "summary": {
+  "explanations": 180,
+  "sentences": 1622,
+  "grounded_share": 1.0,
+  "summary_names_move": 1.0,
+  "legal_moves": 1.0,
+  "checkmate_claims_true": [],
+  "mate_in_claims_true": [
+   true,
+   true,
+   true,
+   true,
+   true
+  ],
+  "material_claims_confirmed": [
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   true,
+   false,
+   true,
+   true,
+   true
+  ],
+  "eval_sign_agreement": 0.9398496240601504,
+  "eval_median_abs_diff": 111,
+  "sentences_per_explanation": 9.011111111111111,
+  "words_per_sentence": 8.745503712809569,
+  "flesch": 77.90381716882993
+ },
+ "rows": [
+  {
+   "id": "opening-001",
+   "category": "opening",
+   "move": "Bxe6",
+   "skipped": false,
+   "sentences": 11,
+   "grounded": 11,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 0,
+   "cp_loss": 43,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 66,
+   "words_per_sentence": 9.727272727272727,
+   "flesch": 83.10761257434157,
+   "summary": "Bxe6 is the engine's choice at depth 4, with an evaluation of +0.66 pawns for White."
+  },
+  {
+   "id": "opening-002",
+   "category": "opening",
+   "move": "Qb3",
+   "skipped": false,
+   "sentences": 4,
+   "grounded": 4,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -19,
+   "cp_loss": 99,
+   "sf_line_material_gain": -100,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 96,
+   "words_per_sentence": 7.5,
+   "flesch": 72.3225,
+   "summary": "Qb3 is the engine's choice at depth 4, with an evaluation of +0.77 pawns for White."
+  },
+  {
+   "id": "opening-003",
+   "category": "opening",
+   "move": "cxd4",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -99,
+   "cp_loss": 51,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 19,
+   "words_per_sentence": 8.6,
+   "flesch": 79.07576744186046,
+   "summary": "cxd4 is the engine's choice at depth 4, with an evaluation of -1.18 pawns for Black."
+  },
+  {
+   "id": "opening-004",
+   "category": "opening",
+   "move": "Nf3",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -11,
+   "cp_loss": 81,
+   "sf_line_material_gain": -420,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 25,
+   "words_per_sentence": 6.8,
+   "flesch": 60.59182352941181,
+   "summary": "Nf3 is the engine's choice at depth 4, with an evaluation of +0.14 pawns for White."
+  },
+  {
+   "id": "opening-005",
+   "category": "opening",
+   "move": "Nc3",
+   "skipped": false,
+   "sentences": 6,
+   "grounded": 6,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -118,
+   "cp_loss": 125,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 97,
+   "words_per_sentence": 8.166666666666666,
+   "flesch": 72.5090986394558,
+   "summary": "Nc3 is the engine's choice at depth 4, with an evaluation of -0.21 pawns for White."
+  },
+  {
+   "id": "opening-006",
+   "category": "opening",
+   "move": "Nc3",
+   "skipped": false,
+   "sentences": 7,
+   "grounded": 7,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -21,
+   "cp_loss": 47,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 81,
+   "words_per_sentence": 7.428571428571429,
+   "flesch": 74.0219230769231,
+   "summary": "Nc3 is the engine's choice at depth 4, with an evaluation of +0.60 pawns for White."
+  },
+  {
+   "id": "opening-007",
+   "category": "opening",
+   "move": "Nf3",
+   "skipped": false,
+   "sentences": 6,
+   "grounded": 6,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 13,
+   "cp_loss": 26,
+   "sf_line_material_gain": -10,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 62,
+   "words_per_sentence": 7.5,
+   "flesch": 69.5025,
+   "summary": "Nf3 is the engine's choice at depth 4, with an evaluation of -0.49 pawns for White."
+  },
+  {
+   "id": "opening-008",
+   "category": "opening",
+   "move": "e5",
+   "skipped": false,
+   "sentences": 4,
+   "grounded": 4,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 90,
+   "cp_loss": 0,
+   "sf_line_material_gain": -100,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 22,
+   "words_per_sentence": 7.5,
+   "flesch": 72.3225,
+   "summary": "e5 is the engine's choice at depth 4, with an evaluation of +1.12 pawns for White."
+  },
+  {
+   "id": "opening-009",
+   "category": "opening",
+   "move": "cxd5",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 22,
+   "cp_loss": 3,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 58,
+   "words_per_sentence": 8.7,
+   "flesch": 79.37001724137932,
+   "summary": "cxd5 is the engine's choice at depth 4, with an evaluation of -0.36 pawns for White."
+  },
+  {
+   "id": "opening-010",
+   "category": "opening",
+   "move": "Nc6",
+   "skipped": false,
+   "sentences": 7,
+   "grounded": 7,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -53,
+   "cp_loss": 26,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 4,
+   "words_per_sentence": 7.428571428571429,
+   "flesch": 74.0219230769231,
+   "summary": "Nc6 is the engine's choice at depth 4, with an evaluation of -0.57 pawns for Black."
+  },
+  {
+   "id": "opening-011",
+   "category": "opening",
+   "move": "Nc3",
+   "skipped": false,
+   "sentences": 6,
+   "grounded": 6,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -14,
+   "cp_loss": 41,
+   "sf_line_material_gain": -100,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 13,
+   "words_per_sentence": 7.833333333333333,
+   "flesch": 69.28416666666669,
+   "summary": "Nc3 is the engine's choice at depth 4, with an evaluation of -0.27 pawns for White."
+  },
+  {
+   "id": "opening-012",
+   "category": "opening",
+   "move": "dxe4",
+   "skipped": false,
+   "sentences": 12,
+   "grounded": 12,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true,
+     true
+    ]
+   },
+   "sf_move_cp": -47,
+   "cp_loss": 0,
+   "sf_line_material_gain": 100,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 26,
+   "words_per_sentence": 11.083333333333334,
+   "flesch": 78.54481516290728,
+   "summary": "dxe4 is the engine's choice at depth 4, with an evaluation of -0.21 pawns for Black."
+  },
+  {
+   "id": "opening-013",
+   "category": "opening",
+   "move": "Nf6",
+   "skipped": false,
+   "sentences": 6,
+   "grounded": 6,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -5,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 23,
+   "words_per_sentence": 7.833333333333333,
+   "flesch": 74.6841666666667,
+   "summary": "Nf6 is the engine's choice at depth 4, with an evaluation of -0.28 pawns for Black."
+  },
+  {
+   "id": "opening-014",
+   "category": "opening",
+   "move": "Nf6",
+   "skipped": false,
+   "sentences": 6,
+   "grounded": 6,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -40,
+   "cp_loss": 5,
+   "sf_line_material_gain": -200,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 63,
+   "words_per_sentence": 6.5,
+   "flesch": 50.56057692307695,
+   "summary": "Nf6 is the engine's choice at depth 4, with an evaluation of -1.03 pawns for Black."
+  },
+  {
+   "id": "opening-015",
+   "category": "opening",
+   "move": "Nc3",
+   "skipped": false,
+   "sentences": 9,
+   "grounded": 9,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 62,
+   "cp_loss": 4,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 16,
+   "words_per_sentence": 7.555555555555555,
+   "flesch": 71.02199346405231,
+   "summary": "Nc3 is the engine's choice at depth 4, with an evaluation of +0.46 pawns for White."
+  },
+  {
+   "id": "opening-016",
+   "category": "opening",
+   "move": "Nc6",
+   "skipped": false,
+   "sentences": 7,
+   "grounded": 7,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -40,
+   "cp_loss": 31,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 25,
+   "words_per_sentence": 7.571428571428571,
+   "flesch": 74.64433962264154,
+   "summary": "Nc6 is the engine's choice at depth 4, with an evaluation of -0.65 pawns for Black."
+  },
+  {
+   "id": "opening-017",
+   "category": "opening",
+   "move": "Nd7",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -140,
+   "cp_loss": 104,
+   "sf_line_material_gain": -10,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 61,
+   "words_per_sentence": 7.0,
+   "flesch": 61.95285714285717,
+   "summary": "Nd7 is the engine's choice at depth 4, with an evaluation of -0.79 pawns for Black."
+  },
+  {
+   "id": "opening-018",
+   "category": "opening",
+   "move": "exd5",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -18,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 46,
+   "words_per_sentence": 9.2,
+   "flesch": 79.79265217391307,
+   "summary": "exd5 is the engine's choice at depth 4, with an evaluation of -0.64 pawns for Black."
+  },
+  {
+   "id": "opening-019",
+   "category": "opening",
+   "move": "Nc3",
+   "skipped": false,
+   "sentences": 7,
+   "grounded": 7,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 11,
+   "cp_loss": 19,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 82,
+   "words_per_sentence": 7.285714285714286,
+   "flesch": 73.36941176470589,
+   "summary": "Nc3 is the engine's choice at depth 4, with an evaluation of +0.93 pawns for White."
+  },
+  {
+   "id": "opening-020",
+   "category": "opening",
+   "move": "Be3",
+   "skipped": false,
+   "sentences": 7,
+   "grounded": 7,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -136,
+   "cp_loss": 129,
+   "sf_line_material_gain": -330,
+   "eval_sign_agree": false,
+   "eval_abs_diff": 143,
+   "words_per_sentence": 7.857142857142857,
+   "flesch": 75.80545454545457,
+   "summary": "Be3 is the engine's choice at depth 4, with an evaluation of +0.07 pawns for White."
+  },
+  {
+   "id": "opening-021",
+   "category": "opening",
+   "move": "O-O",
+   "skipped": false,
+   "sentences": 11,
+   "grounded": 11,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -208,
+   "cp_loss": 115,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 181,
+   "words_per_sentence": 8.818181818181818,
+   "flesch": 81.88660731021558,
+   "summary": "O-O is the engine's choice at depth 4, with an evaluation of -0.27 pawns for White."
+  },
+  {
+   "id": "opening-022",
+   "category": "opening",
+   "move": "cxd5",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 58,
+   "cp_loss": 17,
+   "sf_line_material_gain": -90,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 14,
+   "words_per_sentence": 8.1,
+   "flesch": 78.5023888888889,
+   "summary": "cxd5 is the engine's choice at depth 4, with an evaluation of +0.44 pawns for White."
+  },
+  {
+   "id": "opening-023",
+   "category": "opening",
+   "move": "e6",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -39,
+   "cp_loss": 0,
+   "sf_line_material_gain": -10,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 111,
+   "words_per_sentence": 9.5,
+   "flesch": 82.3146052631579,
+   "summary": "e6 is the engine's choice at depth 4, with an evaluation of -1.50 pawns for Black."
+  },
+  {
+   "id": "opening-024",
+   "category": "opening",
+   "move": "b4",
+   "skipped": false,
+   "sentences": 4,
+   "grounded": 4,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -23,
+   "cp_loss": 6,
+   "sf_line_material_gain": -220,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 3,
+   "words_per_sentence": 7.25,
+   "flesch": 71.11762931034485,
+   "summary": "b4 is the engine's choice at depth 4, with an evaluation of -0.26 pawns for White."
+  },
+  {
+   "id": "opening-025",
+   "category": "opening",
+   "move": "e5",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 36,
+   "cp_loss": 8,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 18,
+   "words_per_sentence": 8.8,
+   "flesch": 80.61663636363639,
+   "summary": "e5 is the engine's choice at depth 4, with an evaluation of +0.54 pawns for White."
+  },
+  {
+   "id": "opening-026",
+   "category": "opening",
+   "move": "cxd5",
+   "skipped": false,
+   "sentences": 8,
+   "grounded": 8,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 43,
+   "cp_loss": 0,
+   "sf_line_material_gain": -330,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 19,
+   "words_per_sentence": 8.25,
+   "flesch": 77.97034090909092,
+   "summary": "cxd5 is the engine's choice at depth 4, with an evaluation of +0.62 pawns for White."
+  },
+  {
+   "id": "opening-027",
+   "category": "opening",
+   "move": "dxc4",
+   "skipped": false,
+   "sentences": 8,
+   "grounded": 8,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     false
+    ]
+   },
+   "sf_move_cp": -29,
+   "cp_loss": 12,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 5,
+   "words_per_sentence": 8.75,
+   "flesch": 84.34803571428574,
+   "summary": "dxc4 is the engine's choice at depth 4, with an evaluation of -0.34 pawns for Black."
+  },
+  {
+   "id": "opening-028",
+   "category": "opening",
+   "move": "e4",
+   "skipped": false,
+   "sentences": 11,
+   "grounded": 11,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 11,
+   "cp_loss": 36,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 75,
+   "words_per_sentence": 8.727272727272727,
+   "flesch": 81.65181818181821,
+   "summary": "e4 is the engine's choice at depth 4, with an evaluation of +0.86 pawns for White."
+  },
+  {
+   "id": "opening-029",
+   "category": "opening",
+   "move": "Bb4",
+   "skipped": false,
+   "sentences": 9,
+   "grounded": 9,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -140,
+   "cp_loss": 26,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 20,
+   "words_per_sentence": 9.222222222222221,
+   "flesch": 83.31540829986616,
+   "summary": "Bb4 is the engine's choice at depth 4, with an evaluation of -1.20 pawns for Black."
+  },
+  {
+   "id": "opening-030",
+   "category": "opening",
+   "move": "a3",
+   "skipped": false,
+   "sentences": 4,
+   "grounded": 4,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -56,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 114,
+   "words_per_sentence": 7.75,
+   "flesch": 73.43326612903226,
+   "summary": "a3 is the engine's choice at depth 4, with an evaluation of -1.70 pawns for Black."
+  },
+  {
+   "id": "opening-031",
+   "category": "opening",
+   "move": "Na3",
+   "skipped": false,
+   "sentences": 4,
+   "grounded": 4,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 113,
+   "cp_loss": 3,
+   "sf_line_material_gain": -100,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 42,
+   "words_per_sentence": 7.5,
+   "flesch": 72.3225,
+   "summary": "Na3 is the engine's choice at depth 4, with an evaluation of +0.71 pawns for White."
+  },
+  {
+   "id": "opening-032",
+   "category": "opening",
+   "move": "Nc6",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -91,
+   "cp_loss": 60,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 57,
+   "words_per_sentence": 6.8,
+   "flesch": 60.59182352941181,
+   "summary": "Nc6 is the engine's choice at depth 4, with an evaluation of -0.34 pawns for Black."
+  },
+  {
+   "id": "opening-033",
+   "category": "opening",
+   "move": "Bb5+",
+   "skipped": false,
+   "sentences": 9,
+   "grounded": 9,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 22,
+   "cp_loss": 10,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 66,
+   "words_per_sentence": 7.0,
+   "flesch": 69.47285714285715,
+   "summary": "Bb5+ is the engine's choice at depth 4, with an evaluation of +0.88 pawns for White."
+  },
+  {
+   "id": "opening-034",
+   "category": "opening",
+   "move": "Nc6",
+   "skipped": false,
+   "sentences": 7,
+   "grounded": 7,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -3,
+   "cp_loss": 0,
+   "sf_line_material_gain": -10,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 23,
+   "words_per_sentence": 7.428571428571429,
+   "flesch": 74.0219230769231,
+   "summary": "Nc6 is the engine's choice at depth 4, with an evaluation of +0.20 pawns for Black."
+  },
+  {
+   "id": "opening-035",
+   "category": "opening",
+   "move": "Bd7",
+   "skipped": false,
+   "sentences": 8,
+   "grounded": 8,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -50,
+   "cp_loss": 26,
+   "sf_line_material_gain": -220,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 28,
+   "words_per_sentence": 9.125,
+   "flesch": 87.4772345890411,
+   "summary": "Bd7 is the engine's choice at depth 4, with an evaluation of -0.78 pawns for Black."
+  },
+  {
+   "id": "opening-036",
+   "category": "opening",
+   "move": "Qb6",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -118,
+   "cp_loss": 34,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 1,
+   "words_per_sentence": 8.4,
+   "flesch": 79.46614285714287,
+   "summary": "Qb6 is the engine's choice at depth 4, with an evaluation of -1.17 pawns for Black."
+  },
+  {
+   "id": "opening-037",
+   "category": "opening",
+   "move": "Bg5",
+   "skipped": false,
+   "sentences": 9,
+   "grounded": 9,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 78,
+   "cp_loss": 0,
+   "sf_line_material_gain": -680,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 23,
+   "words_per_sentence": 9.444444444444445,
+   "flesch": 81.79477124183008,
+   "summary": "Bg5 is the engine's choice at depth 4, with an evaluation of +0.55 pawns for White."
+  },
+  {
+   "id": "opening-038",
+   "category": "opening",
+   "move": "dxc5",
+   "skipped": false,
+   "sentences": 7,
+   "grounded": 7,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -8,
+   "cp_loss": 15,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 22,
+   "words_per_sentence": 8.571428571428571,
+   "flesch": 85.33500000000004,
+   "summary": "dxc5 is the engine's choice at depth 4, with an evaluation of +0.14 pawns for White."
+  },
+  {
+   "id": "opening-039",
+   "category": "opening",
+   "move": "Qxd4",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": -9,
+   "cp_loss": 1,
+   "sf_line_material_gain": 100,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 28,
+   "words_per_sentence": 8.3,
+   "flesch": 74.05869277108435,
+   "summary": "Qxd4 is the engine's choice at depth 4, with an evaluation of -0.37 pawns for Black."
+  },
+  {
+   "id": "opening-040",
+   "category": "opening",
+   "move": "Nc3",
+   "skipped": false,
+   "sentences": 7,
+   "grounded": 7,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 33,
+   "cp_loss": 7,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 10,
+   "words_per_sentence": 7.285714285714286,
+   "flesch": 73.36941176470589,
+   "summary": "Nc3 is the engine's choice at depth 4, with an evaluation of +0.23 pawns for White."
+  },
+  {
+   "id": "random-001",
+   "category": "random",
+   "move": "Rxa1+",
+   "skipped": false,
+   "sentences": 13,
+   "grounded": 13,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 1284,
+   "cp_loss": 0,
+   "sf_line_material_gain": 890,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 0,
+   "words_per_sentence": 11.461538461538462,
+   "flesch": 86.75455859576665,
+   "summary": "Rxa1+ is the engine's choice at depth 4, with an evaluation of +12.72 pawns for Black."
+  },
+  {
+   "id": "random-002",
+   "category": "random",
+   "move": "Bxc6",
+   "skipped": false,
+   "sentences": 12,
+   "grounded": 12,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 299,
+   "cp_loss": 33,
+   "sf_line_material_gain": 490,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 105,
+   "words_per_sentence": 9.333333333333334,
+   "flesch": 82.54738095238096,
+   "summary": "Bxc6 is the engine's choice at depth 4, with an evaluation of +1.94 pawns for Black."
+  },
+  {
+   "id": "random-003",
+   "category": "random",
+   "move": "cxb4",
+   "skipped": false,
+   "sentences": 12,
+   "grounded": 12,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 668,
+   "cp_loss": 0,
+   "sf_line_material_gain": 1000,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 338,
+   "words_per_sentence": 9.416666666666666,
+   "flesch": 85.72487094395281,
+   "summary": "cxb4 is the engine's choice at depth 4, with an evaluation of +3.30 pawns for White."
+  },
+  {
+   "id": "random-004",
+   "category": "random",
+   "move": "axb3",
+   "skipped": false,
+   "sentences": 15,
+   "grounded": 15,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 1140,
+   "cp_loss": 0,
+   "sf_line_material_gain": -230,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 0,
+   "words_per_sentence": 10.0,
+   "flesch": 83.88500000000002,
+   "summary": "axb3 is the engine's choice at depth 4, with an evaluation of +10.73 pawns for Black."
+  },
+  {
+   "id": "random-005",
+   "category": "random",
+   "move": "Qxd6",
+   "skipped": false,
+   "sentences": 13,
+   "grounded": 13,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true,
+     true
+    ]
+   },
+   "sf_move_cp": -14,
+   "cp_loss": 73,
+   "sf_line_material_gain": 220,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 153,
+   "words_per_sentence": 11.461538461538462,
+   "flesch": 84.48341765616934,
+   "summary": "Qxd6 is the engine's choice at depth 4, with an evaluation of -1.67 pawns for Black."
+  },
+  {
+   "id": "random-006",
+   "category": "random",
+   "move": "Bxg7",
+   "skipped": false,
+   "sentences": 12,
+   "grounded": 12,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 972,
+   "cp_loss": 24,
+   "sf_line_material_gain": 490,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 154,
+   "words_per_sentence": 11.0,
+   "flesch": 88.63818181818185,
+   "summary": "Bxg7 is the engine's choice at depth 4, with an evaluation of +8.18 pawns for Black."
+  },
+  {
+   "id": "random-007",
+   "category": "random",
+   "move": "fxg2",
+   "skipped": false,
+   "sentences": 17,
+   "grounded": 17,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true,
+     true
+    ]
+   },
+   "sf_move_cp": 1220,
+   "cp_loss": 0,
+   "sf_line_material_gain": 620,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 0,
+   "words_per_sentence": 10.411764705882353,
+   "flesch": 81.07722831505485,
+   "summary": "fxg2 is the engine's choice at depth 4, with an evaluation of +11.28 pawns for Black."
+  },
+  {
+   "id": "random-008",
+   "category": "random",
+   "move": "Nxc1",
+   "skipped": false,
+   "sentences": 13,
+   "grounded": 13,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 351,
+   "cp_loss": 0,
+   "sf_line_material_gain": 10,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 127,
+   "words_per_sentence": 9.384615384615385,
+   "flesch": 80.8112547288777,
+   "summary": "Nxc1 is the engine's choice at depth 4, with an evaluation of +2.24 pawns for Black."
+  },
+  {
+   "id": "random-009",
+   "category": "random",
+   "move": "Rh6",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -781,
+   "cp_loss": 17,
+   "sf_line_material_gain": -100,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 111,
+   "words_per_sentence": 8.6,
+   "flesch": 76.1246046511628,
+   "summary": "Rh6 is the engine's choice at depth 4, with an evaluation of -6.70 pawns for Black."
+  },
+  {
+   "id": "random-010",
+   "category": "random",
+   "move": "Re5+",
+   "skipped": false,
+   "sentences": 11,
+   "grounded": 11,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [
+     true
+    ],
+    "material": []
+   },
+   "sf_move_cp": 99998,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": null,
+   "words_per_sentence": 11.272727272727273,
+   "flesch": 96.46576246334313,
+   "summary": "Re5+ is the engine's choice at depth 3, with forced mate in 2."
+  },
+  {
+   "id": "random-011",
+   "category": "random",
+   "move": "Qxh4",
+   "skipped": false,
+   "sentences": 12,
+   "grounded": 12,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 748,
+   "cp_loss": 138,
+   "sf_line_material_gain": 300,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 252,
+   "words_per_sentence": 9.583333333333334,
+   "flesch": 86.02443840579713,
+   "summary": "Qxh4 is the engine's choice at depth 4, with an evaluation of +10.21 pawns for Black."
+  },
+  {
+   "id": "random-012",
+   "category": "random",
+   "move": "fxg3",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 467,
+   "cp_loss": 30,
+   "sf_line_material_gain": 90,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 130,
+   "words_per_sentence": 9.8,
+   "flesch": 78.62065306122449,
+   "summary": "fxg3 is the engine's choice at depth 4, with an evaluation of +3.37 pawns for White."
+  },
+  {
+   "id": "random-013",
+   "category": "random",
+   "move": "Nxd4+",
+   "skipped": false,
+   "sentences": 13,
+   "grounded": 13,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true,
+     true
+    ]
+   },
+   "sf_move_cp": 1065,
+   "cp_loss": 0,
+   "sf_line_material_gain": 1000,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 132,
+   "words_per_sentence": 10.538461538461538,
+   "flesch": 82.51510387422798,
+   "summary": "Nxd4+ is the engine's choice at depth 4, with an evaluation of +8.68 pawns for Black."
+  },
+  {
+   "id": "random-014",
+   "category": "random",
+   "move": "hxg4",
+   "skipped": false,
+   "sentences": 11,
+   "grounded": 11,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     false
+    ]
+   },
+   "sf_move_cp": 102,
+   "cp_loss": 23,
+   "sf_line_material_gain": -900,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 73,
+   "words_per_sentence": 9.727272727272727,
+   "flesch": 79.94499575191166,
+   "summary": "hxg4 is the engine's choice at depth 4, with an evaluation of +1.75 pawns for Black."
+  },
+  {
+   "id": "random-015",
+   "category": "random",
+   "move": "Bxd7+",
+   "skipped": false,
+   "sentences": 13,
+   "grounded": 13,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     false
+    ]
+   },
+   "sf_move_cp": 644,
+   "cp_loss": 19,
+   "sf_line_material_gain": -150,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 306,
+   "words_per_sentence": 11.076923076923077,
+   "flesch": 90.42942307692309,
+   "summary": "Bxd7+ is the engine's choice at depth 4, with an evaluation of +3.38 pawns for White."
+  },
+  {
+   "id": "random-016",
+   "category": "random",
+   "move": "Qxg7+",
+   "skipped": false,
+   "sentences": 11,
+   "grounded": 11,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true,
+     true
+    ]
+   },
+   "sf_move_cp": 1357,
+   "cp_loss": 0,
+   "sf_line_material_gain": 1070,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 0,
+   "words_per_sentence": 12.363636363636363,
+   "flesch": 85.42561497326206,
+   "summary": "Qxg7+ is the engine's choice at depth 4, with an evaluation of +11.26 pawns for White."
+  },
+  {
+   "id": "random-017",
+   "category": "random",
+   "move": "Nf3",
+   "skipped": false,
+   "sentences": 8,
+   "grounded": 8,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -983,
+   "cp_loss": 2,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 17,
+   "words_per_sentence": 8.125,
+   "flesch": 76.24350961538464,
+   "summary": "Nf3 is the engine's choice at depth 4, with an evaluation of -10.42 pawns for White."
+  },
+  {
+   "id": "random-018",
+   "category": "random",
+   "move": "hxg3+",
+   "skipped": false,
+   "sentences": 17,
+   "grounded": 17,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true,
+     true
+    ]
+   },
+   "sf_move_cp": -651,
+   "cp_loss": 11,
+   "sf_line_material_gain": 670,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 345,
+   "words_per_sentence": 10.058823529411764,
+   "flesch": 76.89897832817338,
+   "summary": "hxg3+ is the engine's choice at depth 4, with an evaluation of -3.06 pawns for White."
+  },
+  {
+   "id": "random-019",
+   "category": "random",
+   "move": "bxa6",
+   "skipped": false,
+   "sentences": 12,
+   "grounded": 12,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 1213,
+   "cp_loss": 0,
+   "sf_line_material_gain": 1000,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 0,
+   "words_per_sentence": 10.416666666666666,
+   "flesch": 83.23648333333335,
+   "summary": "bxa6 is the engine's choice at depth 4, with an evaluation of +14.11 pawns for White."
+  },
+  {
+   "id": "random-020",
+   "category": "random",
+   "move": "bxc4",
+   "skipped": false,
+   "sentences": 12,
+   "grounded": 12,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     false
+    ]
+   },
+   "sf_move_cp": 577,
+   "cp_loss": 1,
+   "sf_line_material_gain": 50,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 178,
+   "words_per_sentence": 8.5,
+   "flesch": 82.91926470588237,
+   "summary": "bxc4 is the engine's choice at depth 4, with an evaluation of +3.99 pawns for White."
+  },
+  {
+   "id": "random-021",
+   "category": "random",
+   "move": "Bxf2+",
+   "skipped": false,
+   "sentences": 14,
+   "grounded": 14,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 569,
+   "cp_loss": 0,
+   "sf_line_material_gain": 420,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 78,
+   "words_per_sentence": 8.714285714285714,
+   "flesch": 84.2654098360656,
+   "summary": "Bxf2+ is the engine's choice at depth 4, with an evaluation of +6.47 pawns for Black."
+  },
+  {
+   "id": "random-022",
+   "category": "random",
+   "move": "bxc4",
+   "skipped": false,
+   "sentences": 8,
+   "grounded": 8,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 89,
+   "cp_loss": 9,
+   "sf_line_material_gain": 100,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 18,
+   "words_per_sentence": 8.125,
+   "flesch": 80.14812500000004,
+   "summary": "bxc4 is the engine's choice at depth 4, with an evaluation of +0.71 pawns for Black."
+  },
+  {
+   "id": "random-023",
+   "category": "random",
+   "move": "exd3",
+   "skipped": false,
+   "sentences": 17,
+   "grounded": 17,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 983,
+   "cp_loss": 0,
+   "sf_line_material_gain": 1300,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 348,
+   "words_per_sentence": 11.176470588235293,
+   "flesch": 85.06561919504645,
+   "summary": "exd3 is the engine's choice at depth 4, with an evaluation of +6.35 pawns for White."
+  },
+  {
+   "id": "random-024",
+   "category": "random",
+   "move": "Qxh7",
+   "skipped": false,
+   "sentences": 12,
+   "grounded": 12,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": -816,
+   "cp_loss": 58,
+   "sf_line_material_gain": 110,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 332,
+   "words_per_sentence": 8.416666666666666,
+   "flesch": 77.67426155115515,
+   "summary": "Qxh7 is the engine's choice at depth 4, with an evaluation of -4.84 pawns for Black."
+  },
+  {
+   "id": "random-025",
+   "category": "random",
+   "move": "dxe5",
+   "skipped": false,
+   "sentences": 11,
+   "grounded": 11,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": -1046,
+   "cp_loss": 0,
+   "sf_line_material_gain": 100,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 107,
+   "words_per_sentence": 11.0,
+   "flesch": 87.29809917355375,
+   "summary": "dxe5 is the engine's choice at depth 4, with an evaluation of -8.93 pawns for Black."
+  },
+  {
+   "id": "random-026",
+   "category": "random",
+   "move": "Rg8",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -571,
+   "cp_loss": 0,
+   "sf_line_material_gain": 10,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 296,
+   "words_per_sentence": 10.5,
+   "flesch": 88.21178571428574,
+   "summary": "Rg8 is the engine's choice at depth 4, with an evaluation of -2.75 pawns for Black."
+  },
+  {
+   "id": "random-027",
+   "category": "random",
+   "move": "axb5",
+   "skipped": false,
+   "sentences": 15,
+   "grounded": 15,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 821,
+   "cp_loss": 0,
+   "sf_line_material_gain": -100,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 13,
+   "words_per_sentence": 9.533333333333333,
+   "flesch": 82.3866386946387,
+   "summary": "axb5 is the engine's choice at depth 4, with an evaluation of +8.08 pawns for Black."
+  },
+  {
+   "id": "random-028",
+   "category": "random",
+   "move": "Nh5+",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [
+     true
+    ],
+    "material": []
+   },
+   "sf_move_cp": 99997,
+   "cp_loss": 0,
+   "sf_line_material_gain": 100,
+   "eval_sign_agree": null,
+   "eval_abs_diff": null,
+   "words_per_sentence": 9.0,
+   "flesch": 86.78000000000003,
+   "summary": "Nh5+ is the engine's choice at depth 3, with forced mate in 3."
+  },
+  {
+   "id": "random-029",
+   "category": "random",
+   "move": "Bf4",
+   "skipped": false,
+   "sentences": 8,
+   "grounded": 8,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 31,
+   "cp_loss": 93,
+   "sf_line_material_gain": -200,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 18,
+   "words_per_sentence": 7.5,
+   "flesch": 68.0925,
+   "summary": "Bf4 is the engine's choice at depth 4, with an evaluation of +0.49 pawns for White."
+  },
+  {
+   "id": "random-030",
+   "category": "random",
+   "move": "Nd3+",
+   "skipped": false,
+   "sentences": 8,
+   "grounded": 8,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 686,
+   "cp_loss": 314,
+   "sf_line_material_gain": -90,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 196,
+   "words_per_sentence": 9.375,
+   "flesch": 87.90337500000003,
+   "summary": "Nd3+ is the engine's choice at depth 4, with an evaluation of +4.90 pawns for Black."
+  },
+  {
+   "id": "random-031",
+   "category": "random",
+   "move": "Bxb6",
+   "skipped": false,
+   "sentences": 9,
+   "grounded": 9,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 768,
+   "cp_loss": 26,
+   "sf_line_material_gain": 320,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 344,
+   "words_per_sentence": 9.555555555555555,
+   "flesch": 85.97564599483206,
+   "summary": "Bxb6 is the engine's choice at depth 4, with an evaluation of +4.24 pawns for Black."
+  },
+  {
+   "id": "random-032",
+   "category": "random",
+   "move": "exd3",
+   "skipped": false,
+   "sentences": 20,
+   "grounded": 20,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": -440,
+   "cp_loss": 38,
+   "sf_line_material_gain": 790,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 321,
+   "words_per_sentence": 11.45,
+   "flesch": 85.86128493449785,
+   "summary": "exd3 is the engine's choice at depth 4, with an evaluation of -1.19 pawns for Black."
+  },
+  {
+   "id": "random-033",
+   "category": "random",
+   "move": "Qxa1",
+   "skipped": false,
+   "sentences": 13,
+   "grounded": 13,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 866,
+   "cp_loss": 0,
+   "sf_line_material_gain": 500,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 139,
+   "words_per_sentence": 9.615384615384615,
+   "flesch": 84.72658461538462,
+   "summary": "Qxa1 is the engine's choice at depth 4, with an evaluation of +7.27 pawns for Black."
+  },
+  {
+   "id": "random-034",
+   "category": "random",
+   "move": "Nd7",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -365,
+   "cp_loss": 249,
+   "sf_line_material_gain": -10,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 207,
+   "words_per_sentence": 7.2,
+   "flesch": 63.22700000000003,
+   "summary": "Nd7 is the engine's choice at depth 4, with an evaluation of -1.58 pawns for Black."
+  },
+  {
+   "id": "random-035",
+   "category": "random",
+   "move": "Kxf2",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 189,
+   "cp_loss": 0,
+   "sf_line_material_gain": 720,
+   "eval_sign_agree": false,
+   "eval_abs_diff": 297,
+   "words_per_sentence": 11.5,
+   "flesch": 89.22858695652177,
+   "summary": "Kxf2 is the engine's choice at depth 4, with an evaluation of -1.08 pawns for White."
+  },
+  {
+   "id": "random-036",
+   "category": "random",
+   "move": "Nc4",
+   "skipped": false,
+   "sentences": 7,
+   "grounded": 7,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 480,
+   "cp_loss": 0,
+   "sf_line_material_gain": 100,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 290,
+   "words_per_sentence": 8.428571428571429,
+   "flesch": 76.39864406779662,
+   "summary": "Nc4 is the engine's choice at depth 4, with an evaluation of +1.90 pawns for Black."
+  },
+  {
+   "id": "random-037",
+   "category": "random",
+   "move": "Nxb5",
+   "skipped": false,
+   "sentences": 9,
+   "grounded": 9,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -688,
+   "cp_loss": 0,
+   "sf_line_material_gain": -310,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 355,
+   "words_per_sentence": 8.222222222222221,
+   "flesch": 70.4462012012012,
+   "summary": "Nxb5 is the engine's choice at depth 4, with an evaluation of -3.33 pawns for White."
+  },
+  {
+   "id": "random-038",
+   "category": "random",
+   "move": "Rd4+",
+   "skipped": false,
+   "sentences": 8,
+   "grounded": 8,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": -1010,
+   "cp_loss": 0,
+   "sf_line_material_gain": 330,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 161,
+   "words_per_sentence": 11.0,
+   "flesch": 84.15181818181821,
+   "summary": "Rd4+ is the engine's choice at depth 4, with an evaluation of -8.39 pawns for Black."
+  },
+  {
+   "id": "random-039",
+   "category": "random",
+   "move": "d5",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 262,
+   "cp_loss": 30,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 44,
+   "words_per_sentence": 8.5,
+   "flesch": 79.76750000000003,
+   "summary": "d5 is the engine's choice at depth 4, with an evaluation of +2.18 pawns for Black."
+  },
+  {
+   "id": "random-040",
+   "category": "random",
+   "move": "Bxe4",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -1002,
+   "cp_loss": 2,
+   "sf_line_material_gain": -310,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 361,
+   "words_per_sentence": 9.3,
+   "flesch": 80.95679032258064,
+   "summary": "Bxe4 is the engine's choice at depth 4, with an evaluation of -6.39 pawns for White."
+  },
+  {
+   "id": "tactical-001",
+   "category": "tactical",
+   "move": "Nf4",
+   "skipped": false,
+   "sentences": 6,
+   "grounded": 6,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 40,
+   "cp_loss": 222,
+   "sf_line_material_gain": -90,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 66,
+   "words_per_sentence": 9.166666666666666,
+   "flesch": 83.7053787878788,
+   "summary": "Nf4 is the engine's choice at depth 4, with an evaluation of +1.06 pawns for White."
+  },
+  {
+   "id": "tactical-002",
+   "category": "tactical",
+   "move": "Nxd5",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 619,
+   "cp_loss": 0,
+   "sf_line_material_gain": 150,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 581,
+   "words_per_sentence": 8.8,
+   "flesch": 78.69390909090912,
+   "summary": "Nxd5 is the engine's choice at depth 4, with an evaluation of +0.38 pawns for Black."
+  },
+  {
+   "id": "tactical-003",
+   "category": "tactical",
+   "move": "Nxc3",
+   "skipped": false,
+   "sentences": 11,
+   "grounded": 11,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     false
+    ]
+   },
+   "sf_move_cp": 852,
+   "cp_loss": 0,
+   "sf_line_material_gain": 80,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 242,
+   "words_per_sentence": 9.181818181818182,
+   "flesch": 81.92337533753377,
+   "summary": "Nxc3 is the engine's choice at depth 4, with an evaluation of +6.10 pawns for White."
+  },
+  {
+   "id": "tactical-004",
+   "category": "tactical",
+   "move": "Nb3",
+   "skipped": false,
+   "sentences": 7,
+   "grounded": 7,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 266,
+   "cp_loss": 0,
+   "sf_line_material_gain": 10,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 30,
+   "words_per_sentence": 8.857142857142858,
+   "flesch": 75.03854838709678,
+   "summary": "Nb3 is the engine's choice at depth 4, with an evaluation of +2.36 pawns for Black."
+  },
+  {
+   "id": "tactical-005",
+   "category": "tactical",
+   "move": "Re1+",
+   "skipped": false,
+   "sentences": 9,
+   "grounded": 9,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 1554,
+   "cp_loss": 0,
+   "sf_line_material_gain": 990,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 0,
+   "words_per_sentence": 10.333333333333334,
+   "flesch": 86.27569892473119,
+   "summary": "Re1+ is the engine's choice at depth 4, with an evaluation of +11.02 pawns for White."
+  },
+  {
+   "id": "tactical-006",
+   "category": "tactical",
+   "move": "Rhf1",
+   "skipped": false,
+   "sentences": 8,
+   "grounded": 8,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 315,
+   "cp_loss": 12,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 164,
+   "words_per_sentence": 9.625,
+   "flesch": 84.99809253246755,
+   "summary": "Rhf1 is the engine's choice at depth 4, with an evaluation of +1.51 pawns for White."
+  },
+  {
+   "id": "tactical-007",
+   "category": "tactical",
+   "move": "Bxg6+",
+   "skipped": false,
+   "sentences": 19,
+   "grounded": 19,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true,
+     true
+    ]
+   },
+   "sf_move_cp": 1108,
+   "cp_loss": 0,
+   "sf_line_material_gain": 670,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 589,
+   "words_per_sentence": 10.631578947368421,
+   "flesch": 85.4776107347577,
+   "summary": "Bxg6+ is the engine's choice at depth 4, with an evaluation of +4.11 pawns for White."
+  },
+  {
+   "id": "tactical-008",
+   "category": "tactical",
+   "move": "axb3",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 764,
+   "cp_loss": 5,
+   "sf_line_material_gain": 980,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 138,
+   "words_per_sentence": 9.0,
+   "flesch": 85.84000000000003,
+   "summary": "axb3 is the engine's choice at depth 4, with an evaluation of +6.26 pawns for Black."
+  },
+  {
+   "id": "tactical-009",
+   "category": "tactical",
+   "move": "Qe3",
+   "skipped": false,
+   "sentences": 8,
+   "grounded": 8,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 643,
+   "cp_loss": 0,
+   "sf_line_material_gain": 330,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 478,
+   "words_per_sentence": 10.75,
+   "flesch": 78.8609593023256,
+   "summary": "Qe3 is the engine's choice at depth 4, with an evaluation of +1.65 pawns for White."
+  },
+  {
+   "id": "tactical-010",
+   "category": "tactical",
+   "move": "Nxd8",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 791,
+   "cp_loss": 0,
+   "sf_line_material_gain": 100,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 488,
+   "words_per_sentence": 8.2,
+   "flesch": 73.67541463414635,
+   "summary": "Nxd8 is the engine's choice at depth 4, with an evaluation of +3.03 pawns for White."
+  },
+  {
+   "id": "tactical-011",
+   "category": "tactical",
+   "move": "Qb6",
+   "skipped": false,
+   "sentences": 6,
+   "grounded": 6,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -677,
+   "cp_loss": 803,
+   "sf_line_material_gain": 150,
+   "eval_sign_agree": false,
+   "eval_abs_diff": 750,
+   "words_per_sentence": 8.0,
+   "flesch": 71.81500000000001,
+   "summary": "Qb6 is the engine's choice at depth 4, with an evaluation of +0.73 pawns for Black."
+  },
+  {
+   "id": "tactical-012",
+   "category": "tactical",
+   "move": "dxc5",
+   "skipped": false,
+   "sentences": 12,
+   "grounded": 12,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 372,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 9,
+   "words_per_sentence": 9.083333333333334,
+   "flesch": 85.07413226299695,
+   "summary": "dxc5 is the engine's choice at depth 3, with an evaluation of +3.63 pawns for Black."
+  },
+  {
+   "id": "tactical-013",
+   "category": "tactical",
+   "move": "Qxd4",
+   "skipped": false,
+   "sentences": 11,
+   "grounded": 11,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true,
+     true
+    ]
+   },
+   "sf_move_cp": 1522,
+   "cp_loss": 0,
+   "sf_line_material_gain": 590,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 0,
+   "words_per_sentence": 12.181818181818182,
+   "flesch": 78.93463364993215,
+   "summary": "Qxd4 is the engine's choice at depth 4, with an evaluation of +16.83 pawns for Black."
+  },
+  {
+   "id": "tactical-014",
+   "category": "tactical",
+   "move": "gxf5",
+   "skipped": false,
+   "sentences": 11,
+   "grounded": 11,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 638,
+   "cp_loss": 24,
+   "sf_line_material_gain": 120,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 441,
+   "words_per_sentence": 8.272727272727273,
+   "flesch": 76.65136863136864,
+   "summary": "gxf5 is the engine's choice at depth 4, with an evaluation of +1.97 pawns for White."
+  },
+  {
+   "id": "tactical-015",
+   "category": "tactical",
+   "move": "e6",
+   "skipped": false,
+   "sentences": 9,
+   "grounded": 9,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 859,
+   "cp_loss": 14,
+   "sf_line_material_gain": 420,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 132,
+   "words_per_sentence": 10.444444444444445,
+   "flesch": 78.3338888888889,
+   "summary": "e6 is the engine's choice at depth 4, with an evaluation of +7.27 pawns for Black."
+  },
+  {
+   "id": "tactical-016",
+   "category": "tactical",
+   "move": "Re5",
+   "skipped": false,
+   "sentences": 9,
+   "grounded": 9,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 132,
+   "cp_loss": 472,
+   "sf_line_material_gain": -10,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 63,
+   "words_per_sentence": 9.11111111111111,
+   "flesch": 83.06771002710029,
+   "summary": "Re5 is the engine's choice at depth 4, with an evaluation of +1.95 pawns for Black."
+  },
+  {
+   "id": "tactical-017",
+   "category": "tactical",
+   "move": "Rxe3",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 898,
+   "cp_loss": 102,
+   "sf_line_material_gain": 320,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 102,
+   "words_per_sentence": 9.3,
+   "flesch": 82.77614516129033,
+   "summary": "Rxe3 is the engine's choice at depth 4, with an evaluation of +11.83 pawns for Black."
+  },
+  {
+   "id": "tactical-018",
+   "category": "tactical",
+   "move": "Nxd4",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 468,
+   "cp_loss": 19,
+   "sf_line_material_gain": 100,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 288,
+   "words_per_sentence": 9.4,
+   "flesch": 82.09400000000002,
+   "summary": "Nxd4 is the engine's choice at depth 4, with an evaluation of +1.80 pawns for White."
+  },
+  {
+   "id": "tactical-019",
+   "category": "tactical",
+   "move": "Qxe8",
+   "skipped": false,
+   "sentences": 13,
+   "grounded": 13,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     false
+    ]
+   },
+   "sf_move_cp": 581,
+   "cp_loss": 5,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 410,
+   "words_per_sentence": 8.23076923076923,
+   "flesch": 77.51067577282531,
+   "summary": "Qxe8 is the engine's choice at depth 4, with an evaluation of +1.71 pawns for Black."
+  },
+  {
+   "id": "tactical-020",
+   "category": "tactical",
+   "move": "Qxe5+",
+   "skipped": false,
+   "sentences": 8,
+   "grounded": 8,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 986,
+   "cp_loss": 0,
+   "sf_line_material_gain": 1000,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 14,
+   "words_per_sentence": 7.125,
+   "flesch": 70.47680921052631,
+   "summary": "Qxe5+ is the engine's choice at depth 4, with an evaluation of +10.08 pawns for White."
+  },
+  {
+   "id": "tactical-021",
+   "category": "tactical",
+   "move": "fxg3",
+   "skipped": false,
+   "sentences": 15,
+   "grounded": 15,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 688,
+   "cp_loss": 0,
+   "sf_line_material_gain": 900,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 325,
+   "words_per_sentence": 8.8,
+   "flesch": 88.94845454545458,
+   "summary": "fxg3 is the engine's choice at depth 4, with an evaluation of +3.63 pawns for White."
+  },
+  {
+   "id": "tactical-022",
+   "category": "tactical",
+   "move": "Bxh5",
+   "skipped": false,
+   "sentences": 11,
+   "grounded": 11,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 909,
+   "cp_loss": 0,
+   "sf_line_material_gain": 570,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 557,
+   "words_per_sentence": 7.909090909090909,
+   "flesch": 76.28313479623826,
+   "summary": "Bxh5 is the engine's choice at depth 4, with an evaluation of +3.52 pawns for White."
+  },
+  {
+   "id": "tactical-023",
+   "category": "tactical",
+   "move": "Rxf2",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 606,
+   "cp_loss": 0,
+   "sf_line_material_gain": 90,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 263,
+   "words_per_sentence": 9.2,
+   "flesch": 80.71221739130438,
+   "summary": "Rxf2 is the engine's choice at depth 4, with an evaluation of +3.43 pawns for Black."
+  },
+  {
+   "id": "tactical-024",
+   "category": "tactical",
+   "move": "Qxd8+",
+   "skipped": false,
+   "sentences": 8,
+   "grounded": 8,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 1818,
+   "cp_loss": 0,
+   "sf_line_material_gain": 1000,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 0,
+   "words_per_sentence": 7.375,
+   "flesch": 71.73242584745765,
+   "summary": "Qxd8+ is the engine's choice at depth 4, with an evaluation of +16.15 pawns for White."
+  },
+  {
+   "id": "tactical-025",
+   "category": "tactical",
+   "move": "Rh4",
+   "skipped": false,
+   "sentences": 8,
+   "grounded": 8,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 228,
+   "cp_loss": 309,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 62,
+   "words_per_sentence": 10.125,
+   "flesch": 86.89145833333336,
+   "summary": "Rh4 is the engine's choice at depth 4, with an evaluation of +1.66 pawns for White."
+  },
+  {
+   "id": "tactical-026",
+   "category": "tactical",
+   "move": "exd3",
+   "skipped": false,
+   "sentences": 17,
+   "grounded": 17,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     false
+    ]
+   },
+   "sf_move_cp": 332,
+   "cp_loss": 0,
+   "sf_line_material_gain": 70,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 187,
+   "words_per_sentence": 8.529411764705882,
+   "flesch": 76.23695740365113,
+   "summary": "exd3 is the engine's choice at depth 4, with an evaluation of +1.45 pawns for Black."
+  },
+  {
+   "id": "tactical-027",
+   "category": "tactical",
+   "move": "Nxh7",
+   "skipped": false,
+   "sentences": 9,
+   "grounded": 9,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 1441,
+   "cp_loss": 0,
+   "sf_line_material_gain": 1230,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 151,
+   "words_per_sentence": 6.666666666666667,
+   "flesch": 57.65833333333333,
+   "summary": "Nxh7 is the engine's choice at depth 4, with an evaluation of +8.49 pawns for Black."
+  },
+  {
+   "id": "tactical-028",
+   "category": "tactical",
+   "move": "Qxf8",
+   "skipped": false,
+   "sentences": 8,
+   "grounded": 8,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 99994,
+   "cp_loss": 0,
+   "sf_line_material_gain": 600,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 0,
+   "words_per_sentence": 9.125,
+   "flesch": 87.4772345890411,
+   "summary": "Qxf8 is the engine's choice at depth 4, with an evaluation of +11.89 pawns for Black."
+  },
+  {
+   "id": "tactical-029",
+   "category": "tactical",
+   "move": "Nxg3",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -48,
+   "cp_loss": 239,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 218,
+   "words_per_sentence": 8.4,
+   "flesch": 77.45185714285715,
+   "summary": "Nxg3 is the engine's choice at depth 4, with an evaluation of +1.70 pawns for Black."
+  },
+  {
+   "id": "tactical-030",
+   "category": "tactical",
+   "move": "exd5",
+   "skipped": false,
+   "sentences": 15,
+   "grounded": 15,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 1491,
+   "cp_loss": 0,
+   "sf_line_material_gain": 600,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 0,
+   "words_per_sentence": 9.066666666666666,
+   "flesch": 80.68527450980395,
+   "summary": "exd5 is the engine's choice at depth 4, with an evaluation of +17.44 pawns for White."
+  },
+  {
+   "id": "tactical-031",
+   "category": "tactical",
+   "move": "Qb1+",
+   "skipped": false,
+   "sentences": 6,
+   "grounded": 6,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 99992,
+   "cp_loss": 0,
+   "sf_line_material_gain": 500,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 125,
+   "words_per_sentence": 9.666666666666666,
+   "flesch": 83.2509195402299,
+   "summary": "Qb1+ is the engine's choice at depth 4, with an evaluation of +8.75 pawns for Black."
+  },
+  {
+   "id": "tactical-032",
+   "category": "tactical",
+   "move": "Kxg6",
+   "skipped": false,
+   "sentences": 7,
+   "grounded": 7,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 946,
+   "cp_loss": 0,
+   "sf_line_material_gain": 730,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 658,
+   "words_per_sentence": 7.571428571428571,
+   "flesch": 68.25943396226415,
+   "summary": "Kxg6 is the engine's choice at depth 4, with an evaluation of +2.88 pawns for Black."
+  },
+  {
+   "id": "tactical-033",
+   "category": "tactical",
+   "move": "Qxb4",
+   "skipped": false,
+   "sentences": 7,
+   "grounded": 7,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 819,
+   "cp_loss": 5,
+   "sf_line_material_gain": 420,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 365,
+   "words_per_sentence": 9.571428571428571,
+   "flesch": 83.47820895522388,
+   "summary": "Qxb4 is the engine's choice at depth 4, with an evaluation of +4.54 pawns for White."
+  },
+  {
+   "id": "tactical-034",
+   "category": "tactical",
+   "move": "Bxd3",
+   "skipped": false,
+   "sentences": 9,
+   "grounded": 9,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 1138,
+   "cp_loss": 0,
+   "sf_line_material_gain": 900,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 138,
+   "words_per_sentence": 9.444444444444445,
+   "flesch": 72.83712418300655,
+   "summary": "Bxd3 is the engine's choice at depth 4, with an evaluation of +8.62 pawns for Black."
+  },
+  {
+   "id": "tactical-035",
+   "category": "tactical",
+   "move": "a3",
+   "skipped": false,
+   "sentences": 7,
+   "grounded": 7,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     false
+    ]
+   },
+   "sf_move_cp": 517,
+   "cp_loss": 0,
+   "sf_line_material_gain": -190,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 375,
+   "words_per_sentence": 7.714285714285714,
+   "flesch": 79.93833333333333,
+   "summary": "a3 is the engine's choice at depth 4, with an evaluation of +1.42 pawns for White."
+  },
+  {
+   "id": "tactical-036",
+   "category": "tactical",
+   "move": "Qxe4",
+   "skipped": false,
+   "sentences": 14,
+   "grounded": 14,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 1005,
+   "cp_loss": 0,
+   "sf_line_material_gain": 250,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 98,
+   "words_per_sentence": 10.428571428571429,
+   "flesch": 83.83630136986302,
+   "summary": "Qxe4 is the engine's choice at depth 4, with an evaluation of +9.02 pawns for Black."
+  },
+  {
+   "id": "tactical-037",
+   "category": "tactical",
+   "move": "Kg1",
+   "skipped": false,
+   "sentences": 7,
+   "grounded": 7,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 614,
+   "cp_loss": 0,
+   "sf_line_material_gain": -200,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 382,
+   "words_per_sentence": 9.857142857142858,
+   "flesch": 91.38652173913046,
+   "summary": "Kg1 is the engine's choice at depth 4, with an evaluation of +2.32 pawns for White."
+  },
+  {
+   "id": "tactical-038",
+   "category": "tactical",
+   "move": "Rxe4",
+   "skipped": false,
+   "sentences": 12,
+   "grounded": 12,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 224,
+   "cp_loss": 229,
+   "sf_line_material_gain": -180,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 94,
+   "words_per_sentence": 9.666666666666666,
+   "flesch": 80.33367816091955,
+   "summary": "Rxe4 is the engine's choice at depth 4, with an evaluation of +3.18 pawns for White."
+  },
+  {
+   "id": "tactical-039",
+   "category": "tactical",
+   "move": "Bxe2",
+   "skipped": false,
+   "sentences": 13,
+   "grounded": 13,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -331,
+   "cp_loss": 1143,
+   "sf_line_material_gain": -400,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 234,
+   "words_per_sentence": 8.384615384615385,
+   "flesch": 70.26039520112914,
+   "summary": "Bxe2 is the engine's choice at depth 4, with an evaluation of -0.97 pawns for White."
+  },
+  {
+   "id": "tactical-040",
+   "category": "tactical",
+   "move": "Qxg4+",
+   "skipped": false,
+   "sentences": 14,
+   "grounded": 14,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true,
+     true
+    ]
+   },
+   "sf_move_cp": 232,
+   "cp_loss": 0,
+   "sf_line_material_gain": 320,
+   "eval_sign_agree": false,
+   "eval_abs_diff": 260,
+   "words_per_sentence": 12.428571428571429,
+   "flesch": 89.68551724137932,
+   "summary": "Qxg4+ is the engine's choice at depth 4, with an evaluation of -0.28 pawns for White."
+  },
+  {
+   "id": "tactical-041",
+   "category": "tactical",
+   "move": "Rc2",
+   "skipped": false,
+   "sentences": 9,
+   "grounded": 9,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 242,
+   "cp_loss": 298,
+   "sf_line_material_gain": -70,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 244,
+   "words_per_sentence": 10.444444444444445,
+   "flesch": 83.7338888888889,
+   "summary": "Rc2 is the engine's choice at depth 4, with an evaluation of +4.86 pawns for Black."
+  },
+  {
+   "id": "tactical-042",
+   "category": "tactical",
+   "move": "Ng4",
+   "skipped": false,
+   "sentences": 9,
+   "grounded": 9,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 394,
+   "cp_loss": 28,
+   "sf_line_material_gain": 330,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 291,
+   "words_per_sentence": 9.777777777777779,
+   "flesch": 74.81737373737376,
+   "summary": "Ng4 is the engine's choice at depth 4, with an evaluation of +1.03 pawns for Black."
+  },
+  {
+   "id": "tactical-043",
+   "category": "tactical",
+   "move": "Nxf7+",
+   "skipped": false,
+   "sentences": 8,
+   "grounded": 8,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 1030,
+   "cp_loss": 0,
+   "sf_line_material_gain": 500,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 993,
+   "words_per_sentence": 7.375,
+   "flesch": 73.16632415254239,
+   "summary": "Nxf7+ is the engine's choice at depth 4, with an evaluation of +0.07 pawns for White."
+  },
+  {
+   "id": "tactical-044",
+   "category": "tactical",
+   "move": "Kxd1",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 498,
+   "cp_loss": 4,
+   "sf_line_material_gain": 400,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 267,
+   "words_per_sentence": 9.2,
+   "flesch": 84.39047826086959,
+   "summary": "Kxd1 is the engine's choice at depth 4, with an evaluation of +2.31 pawns for White."
+  },
+  {
+   "id": "tactical-045",
+   "category": "tactical",
+   "move": "Rxe7",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 523,
+   "cp_loss": 0,
+   "sf_line_material_gain": 500,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 137,
+   "words_per_sentence": 9.9,
+   "flesch": 83.13195454545458,
+   "summary": "Rxe7 is the engine's choice at depth 4, with an evaluation of +3.86 pawns for White."
+  },
+  {
+   "id": "tactical-046",
+   "category": "tactical",
+   "move": "bxc6",
+   "skipped": false,
+   "sentences": 16,
+   "grounded": 16,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     false
+    ]
+   },
+   "sf_move_cp": 256,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": false,
+   "eval_abs_diff": 368,
+   "words_per_sentence": 8.6875,
+   "flesch": 81.76826663669067,
+   "summary": "bxc6 is the engine's choice at depth 4, with an evaluation of -1.12 pawns for Black."
+  },
+  {
+   "id": "tactical-047",
+   "category": "tactical",
+   "move": "Nxe6+",
+   "skipped": false,
+   "sentences": 13,
+   "grounded": 13,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true,
+     true
+    ]
+   },
+   "sf_move_cp": 224,
+   "cp_loss": 0,
+   "sf_line_material_gain": 430,
+   "eval_sign_agree": false,
+   "eval_abs_diff": 336,
+   "words_per_sentence": 10.538461538461538,
+   "flesch": 80.66254912970243,
+   "summary": "Nxe6+ is the engine's choice at depth 4, with an evaluation of -1.12 pawns for White."
+  },
+  {
+   "id": "tactical-048",
+   "category": "tactical",
+   "move": "Ng6+",
+   "skipped": false,
+   "sentences": 9,
+   "grounded": 9,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     false
+    ]
+   },
+   "sf_move_cp": 99995,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": false,
+   "eval_abs_diff": 1136,
+   "words_per_sentence": 9.333333333333334,
+   "flesch": 82.54738095238096,
+   "summary": "Ng6+ is the engine's choice at depth 4, with an evaluation of -1.36 pawns for White."
+  },
+  {
+   "id": "tactical-049",
+   "category": "tactical",
+   "move": "b2",
+   "skipped": false,
+   "sentences": 13,
+   "grounded": 13,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 1387,
+   "cp_loss": 0,
+   "sf_line_material_gain": 220,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 0,
+   "words_per_sentence": 8.538461538461538,
+   "flesch": 79.27116424116424,
+   "summary": "b2 is the engine's choice at depth 4, with an evaluation of +15.33 pawns for Black."
+  },
+  {
+   "id": "tactical-050",
+   "category": "tactical",
+   "move": "Kxh3",
+   "skipped": false,
+   "sentences": 14,
+   "grounded": 14,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 577,
+   "cp_loss": 4,
+   "sf_line_material_gain": 10,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 385,
+   "words_per_sentence": 9.142857142857142,
+   "flesch": 77.92531250000002,
+   "summary": "Kxh3 is the engine's choice at depth 4, with an evaluation of +1.92 pawns for White."
+  },
+  {
+   "id": "tactical-051",
+   "category": "tactical",
+   "move": "Ke7",
+   "skipped": false,
+   "sentences": 7,
+   "grounded": 7,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 491,
+   "cp_loss": 29,
+   "sf_line_material_gain": 220,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 10,
+   "words_per_sentence": 8.857142857142858,
+   "flesch": 81.86112903225808,
+   "summary": "Ke7 is the engine's choice at depth 4, with an evaluation of +4.81 pawns for Black."
+  },
+  {
+   "id": "tactical-052",
+   "category": "tactical",
+   "move": "Rxa2",
+   "skipped": false,
+   "sentences": 11,
+   "grounded": 11,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 589,
+   "cp_loss": 0,
+   "sf_line_material_gain": 220,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 398,
+   "words_per_sentence": 9.0,
+   "flesch": 83.19090909090912,
+   "summary": "Rxa2 is the engine's choice at depth 4, with an evaluation of +1.91 pawns for White."
+  },
+  {
+   "id": "tactical-053",
+   "category": "tactical",
+   "move": "Bxg7",
+   "skipped": false,
+   "sentences": 13,
+   "grounded": 13,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 1595,
+   "cp_loss": 0,
+   "sf_line_material_gain": 100,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 0,
+   "words_per_sentence": 8.923076923076923,
+   "flesch": 81.08842175066313,
+   "summary": "Bxg7 is the engine's choice at depth 4, with an evaluation of +18.56 pawns for Black."
+  },
+  {
+   "id": "tactical-054",
+   "category": "tactical",
+   "move": "Qxb4",
+   "skipped": false,
+   "sentences": 11,
+   "grounded": 11,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 105,
+   "cp_loss": 469,
+   "sf_line_material_gain": 250,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 83,
+   "words_per_sentence": 11.818181818181818,
+   "flesch": 86.81185314685317,
+   "summary": "Qxb4 is the engine's choice at depth 4, with an evaluation of +1.88 pawns for White."
+  },
+  {
+   "id": "tactical-055",
+   "category": "tactical",
+   "move": "Qxc5",
+   "skipped": false,
+   "sentences": 8,
+   "grounded": 8,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 654,
+   "cp_loss": 0,
+   "sf_line_material_gain": 500,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 142,
+   "words_per_sentence": 8.5,
+   "flesch": 75.03985294117649,
+   "summary": "Qxc5 is the engine's choice at depth 4, with an evaluation of +5.12 pawns for White."
+  },
+  {
+   "id": "tactical-056",
+   "category": "tactical",
+   "move": "gxh7",
+   "skipped": false,
+   "sentences": 16,
+   "grounded": 16,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 293,
+   "cp_loss": 0,
+   "sf_line_material_gain": 730,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 194,
+   "words_per_sentence": 9.25,
+   "flesch": 85.98003378378381,
+   "summary": "gxh7 is the engine's choice at depth 4, with an evaluation of +0.99 pawns for White."
+  },
+  {
+   "id": "tactical-057",
+   "category": "tactical",
+   "move": "Be4+",
+   "skipped": false,
+   "sentences": 9,
+   "grounded": 9,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true,
+     true
+    ]
+   },
+   "sf_move_cp": 503,
+   "cp_loss": 0,
+   "sf_line_material_gain": 720,
+   "eval_sign_agree": false,
+   "eval_abs_diff": 887,
+   "words_per_sentence": 10.555555555555555,
+   "flesch": 75.00953216374272,
+   "summary": "Be4+ is the engine's choice at depth 4, with an evaluation of -3.84 pawns for Black."
+  },
+  {
+   "id": "tactical-058",
+   "category": "tactical",
+   "move": "Nxg2",
+   "skipped": false,
+   "sentences": 9,
+   "grounded": 9,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 622,
+   "cp_loss": 0,
+   "sf_line_material_gain": 500,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 342,
+   "words_per_sentence": 7.555555555555555,
+   "flesch": 67.28964052287583,
+   "summary": "Nxg2 is the engine's choice at depth 4, with an evaluation of +2.80 pawns for White."
+  },
+  {
+   "id": "tactical-059",
+   "category": "tactical",
+   "move": "Rxa1",
+   "skipped": false,
+   "sentences": 8,
+   "grounded": 8,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 318,
+   "cp_loss": 0,
+   "sf_line_material_gain": 330,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 218,
+   "words_per_sentence": 8.625,
+   "flesch": 76.69801630434783,
+   "summary": "Rxa1 is the engine's choice at depth 4, with an evaluation of +1.00 pawns for White."
+  },
+  {
+   "id": "tactical-060",
+   "category": "tactical",
+   "move": "Bxe7",
+   "skipped": false,
+   "sentences": 14,
+   "grounded": 14,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 567,
+   "cp_loss": 0,
+   "sf_line_material_gain": 100,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 449,
+   "words_per_sentence": 10.785714285714286,
+   "flesch": 84.39478476821193,
+   "summary": "Bxe7 is the engine's choice at depth 4, with an evaluation of +1.18 pawns for White."
+  },
+  {
+   "id": "endgame-001",
+   "category": "endgame",
+   "move": "Ke5",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -968,
+   "cp_loss": 0,
+   "sf_line_material_gain": -800,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 706,
+   "words_per_sentence": 7.2,
+   "flesch": 63.22700000000003,
+   "summary": "Ke5 is the engine's choice at depth 4, with an evaluation of -2.62 pawns for White."
+  },
+  {
+   "id": "endgame-002",
+   "category": "endgame",
+   "move": "Kxb6",
+   "skipped": false,
+   "sentences": 9,
+   "grounded": 9,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 0,
+   "cp_loss": 0,
+   "sf_line_material_gain": 100,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 352,
+   "words_per_sentence": 7.222222222222222,
+   "flesch": 66.74752136752139,
+   "summary": "Kxb6 is the engine's choice at depth 4, with an evaluation of -3.52 pawns for Black."
+  },
+  {
+   "id": "endgame-003",
+   "category": "endgame",
+   "move": "e5",
+   "skipped": false,
+   "sentences": 13,
+   "grounded": 13,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 68,
+   "cp_loss": 480,
+   "sf_line_material_gain": -100,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 79,
+   "words_per_sentence": 8.76923076923077,
+   "flesch": 81.42370445344129,
+   "summary": "e5 is the engine's choice at depth 4, with an evaluation of +1.47 pawns for Black."
+  },
+  {
+   "id": "endgame-004",
+   "category": "endgame",
+   "move": "Kc5",
+   "skipped": false,
+   "sentences": 6,
+   "grounded": 6,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -504,
+   "cp_loss": 31,
+   "sf_line_material_gain": -320,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 299,
+   "words_per_sentence": 8.0,
+   "flesch": 68.28999999999999,
+   "summary": "Kc5 is the engine's choice at depth 4, with an evaluation of -8.03 pawns for Black."
+  },
+  {
+   "id": "endgame-005",
+   "category": "endgame",
+   "move": "Qe6",
+   "skipped": false,
+   "sentences": 4,
+   "grounded": 4,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 99991,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 66,
+   "words_per_sentence": 7.5,
+   "flesch": 72.3225,
+   "summary": "Qe6 is the engine's choice at depth 4, with an evaluation of +9.34 pawns for White."
+  },
+  {
+   "id": "endgame-006",
+   "category": "endgame",
+   "move": "Kd5",
+   "skipped": false,
+   "sentences": 4,
+   "grounded": 4,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -1383,
+   "cp_loss": 722,
+   "sf_line_material_gain": -900,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 590,
+   "words_per_sentence": 7.25,
+   "flesch": 71.11762931034485,
+   "summary": "Kd5 is the engine's choice at depth 4, with an evaluation of -4.10 pawns for White."
+  },
+  {
+   "id": "endgame-007",
+   "category": "endgame",
+   "move": "Qc3+",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 746,
+   "cp_loss": 254,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 190,
+   "words_per_sentence": 6.4,
+   "flesch": 73.43900000000001,
+   "summary": "Qc3+ is the engine's choice at depth 4, with an evaluation of +9.36 pawns for White."
+  },
+  {
+   "id": "endgame-008",
+   "category": "endgame",
+   "move": "Kf4",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -6,
+   "cp_loss": 0,
+   "sf_line_material_gain": -330,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 160,
+   "words_per_sentence": 8.6,
+   "flesch": 74.15716279069768,
+   "summary": "Kf4 is the engine's choice at depth 4, with an evaluation of -1.66 pawns for White."
+  },
+  {
+   "id": "endgame-009",
+   "category": "endgame",
+   "move": "Qe2",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [
+     true
+    ],
+    "material": []
+   },
+   "sf_move_cp": 99998,
+   "cp_loss": 0,
+   "sf_line_material_gain": 800,
+   "eval_sign_agree": null,
+   "eval_abs_diff": null,
+   "words_per_sentence": 7.0,
+   "flesch": 90.95857142857145,
+   "summary": "Qe2 is the engine's choice at depth 2, with forced mate in 2."
+  },
+  {
+   "id": "endgame-010",
+   "category": "endgame",
+   "move": "b5",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 1487,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 345,
+   "words_per_sentence": 8.2,
+   "flesch": 81.92907317073173,
+   "summary": "b5 is the engine's choice at depth 4, with an evaluation of +6.55 pawns for Black."
+  },
+  {
+   "id": "endgame-011",
+   "category": "endgame",
+   "move": "Kf6",
+   "skipped": false,
+   "sentences": 4,
+   "grounded": 4,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -99998,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": null,
+   "words_per_sentence": 7.5,
+   "flesch": 72.3225,
+   "summary": "Kf6 is the engine's choice at depth 4, with being mated in 2."
+  },
+  {
+   "id": "endgame-012",
+   "category": "endgame",
+   "move": "Qe5",
+   "skipped": false,
+   "sentences": 4,
+   "grounded": 4,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 99994,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 69,
+   "words_per_sentence": 7.75,
+   "flesch": 73.43326612903226,
+   "summary": "Qe5 is the engine's choice at depth 4, with an evaluation of +9.31 pawns for White."
+  },
+  {
+   "id": "endgame-013",
+   "category": "endgame",
+   "move": "Kb7",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 99995,
+   "cp_loss": 0,
+   "sf_line_material_gain": 800,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 0,
+   "words_per_sentence": 7.8,
+   "flesch": 73.10261538461539,
+   "summary": "Kb7 is the engine's choice at depth 4, with an evaluation of +19.59 pawns for White."
+  },
+  {
+   "id": "endgame-014",
+   "category": "endgame",
+   "move": "Qe2+",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [
+     true
+    ],
+    "material": []
+   },
+   "sf_move_cp": 99998,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": null,
+   "words_per_sentence": 6.0,
+   "flesch": 87.94500000000002,
+   "summary": "Qe2+ is the engine's choice at depth 3, with forced mate in 2."
+  },
+  {
+   "id": "endgame-015",
+   "category": "endgame",
+   "move": "c5",
+   "skipped": false,
+   "sentences": 12,
+   "grounded": 12,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 0,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 224,
+   "words_per_sentence": 8.0,
+   "flesch": 77.1025,
+   "summary": "c5 is the engine's choice at depth 4, with an evaluation of -2.24 pawns for Black."
+  },
+  {
+   "id": "endgame-016",
+   "category": "endgame",
+   "move": "Rc7",
+   "skipped": false,
+   "sentences": 6,
+   "grounded": 6,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -261,
+   "cp_loss": 35,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 51,
+   "words_per_sentence": 9.0,
+   "flesch": 84.90000000000003,
+   "summary": "Rc7 is the engine's choice at depth 4, with an evaluation of -3.12 pawns for White."
+  },
+  {
+   "id": "endgame-017",
+   "category": "endgame",
+   "move": "b5",
+   "skipped": false,
+   "sentences": 9,
+   "grounded": 9,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -6,
+   "cp_loss": 1,
+   "sf_line_material_gain": -100,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 36,
+   "words_per_sentence": 7.555555555555555,
+   "flesch": 75.9984640522876,
+   "summary": "b5 is the engine's choice at depth 4, with an evaluation of +0.30 pawns for Black."
+  },
+  {
+   "id": "endgame-018",
+   "category": "endgame",
+   "move": "Kd3",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -383,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 147,
+   "words_per_sentence": 7.2,
+   "flesch": 63.22700000000003,
+   "summary": "Kd3 is the engine's choice at depth 4, with an evaluation of -5.30 pawns for Black."
+  },
+  {
+   "id": "endgame-019",
+   "category": "endgame",
+   "move": "Kd5",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 4,
+   "cp_loss": 3,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 19,
+   "words_per_sentence": 8.6,
+   "flesch": 80.05948837209303,
+   "summary": "Kd5 is the engine's choice at depth 4, with an evaluation of -0.15 pawns for White."
+  },
+  {
+   "id": "endgame-020",
+   "category": "endgame",
+   "move": "Rg2",
+   "skipped": false,
+   "sentences": 7,
+   "grounded": 7,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [
+     true
+    ],
+    "material": []
+   },
+   "sf_move_cp": 99997,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": null,
+   "words_per_sentence": 7.857142857142857,
+   "flesch": 81.95818181818184,
+   "summary": "Rg2 is the engine's choice at depth 4, with forced mate in 3."
+  },
+  {
+   "id": "endgame-021",
+   "category": "endgame",
+   "move": "Kg1",
+   "skipped": false,
+   "sentences": 4,
+   "grounded": 4,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -99991,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 53,
+   "words_per_sentence": 7.75,
+   "flesch": 62.517137096774206,
+   "summary": "Kg1 is the engine's choice at depth 4, with an evaluation of -9.47 pawns for White."
+  },
+  {
+   "id": "endgame-022",
+   "category": "endgame",
+   "move": "Bg6+",
+   "skipped": false,
+   "sentences": 7,
+   "grounded": 7,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 588,
+   "cp_loss": 8,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 412,
+   "words_per_sentence": 7.857142857142857,
+   "flesch": 85.03454545454548,
+   "summary": "Bg6+ is the engine's choice at depth 4, with an evaluation of +10.58 pawns for White."
+  },
+  {
+   "id": "endgame-023",
+   "category": "endgame",
+   "move": "Kc4",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 1231,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 70,
+   "words_per_sentence": 7.0,
+   "flesch": 61.95285714285717,
+   "summary": "Kc4 is the engine's choice at depth 4, with an evaluation of +9.30 pawns for White."
+  },
+  {
+   "id": "endgame-024",
+   "category": "endgame",
+   "move": "f4",
+   "skipped": false,
+   "sentences": 9,
+   "grounded": 9,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 409,
+   "cp_loss": 11,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 222,
+   "words_per_sentence": 7.555555555555555,
+   "flesch": 75.9984640522876,
+   "summary": "f4 is the engine's choice at depth 4, with an evaluation of +1.87 pawns for Black."
+  },
+  {
+   "id": "endgame-025",
+   "category": "endgame",
+   "move": "Ke3",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -99991,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 0,
+   "words_per_sentence": 7.2,
+   "flesch": 63.22700000000003,
+   "summary": "Ke3 is the engine's choice at depth 4, with an evaluation of -13.05 pawns for Black."
+  },
+  {
+   "id": "endgame-026",
+   "category": "endgame",
+   "move": "Kg2",
+   "skipped": false,
+   "sentences": 6,
+   "grounded": 6,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 726,
+   "cp_loss": 0,
+   "sf_line_material_gain": 100,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 291,
+   "words_per_sentence": 7.0,
+   "flesch": 62.75857142857146,
+   "summary": "Kg2 is the engine's choice at depth 4, with an evaluation of +4.35 pawns for White."
+  },
+  {
+   "id": "endgame-027",
+   "category": "endgame",
+   "move": "Kd3",
+   "skipped": false,
+   "sentences": 4,
+   "grounded": 4,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -403,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 108,
+   "words_per_sentence": 7.75,
+   "flesch": 73.43326612903226,
+   "summary": "Kd3 is the engine's choice at depth 4, with an evaluation of -5.11 pawns for Black."
+  },
+  {
+   "id": "endgame-028",
+   "category": "endgame",
+   "move": "Bc5+",
+   "skipped": false,
+   "sentences": 7,
+   "grounded": 7,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     false
+    ]
+   },
+   "sf_move_cp": -99994,
+   "cp_loss": 4,
+   "sf_line_material_gain": -330,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 382,
+   "words_per_sentence": 9.714285714285714,
+   "flesch": 82.51617647058826,
+   "summary": "Bc5+ is the engine's choice at depth 4, with an evaluation of -6.18 pawns for White."
+  },
+  {
+   "id": "endgame-029",
+   "category": "endgame",
+   "move": "Kf1",
+   "skipped": false,
+   "sentences": 4,
+   "grounded": 4,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -99998,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": null,
+   "words_per_sentence": 8.5,
+   "flesch": 88.72514705882354,
+   "summary": "Kf1 is the engine's choice at depth 4, with being mated in 2."
+  },
+  {
+   "id": "endgame-030",
+   "category": "endgame",
+   "move": "Rd7",
+   "skipped": false,
+   "sentences": 7,
+   "grounded": 7,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 748,
+   "cp_loss": 99,
+   "sf_line_material_gain": 100,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 184,
+   "words_per_sentence": 8.714285714285714,
+   "flesch": 81.49163934426231,
+   "summary": "Rd7 is the engine's choice at depth 4, with an evaluation of +9.32 pawns for Black."
+  },
+  {
+   "id": "endgame-031",
+   "category": "endgame",
+   "move": "c8=Q+",
+   "skipped": false,
+   "sentences": 11,
+   "grounded": 11,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -2,
+   "cp_loss": 2,
+   "sf_line_material_gain": -100,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 42,
+   "words_per_sentence": 8.545454545454545,
+   "flesch": 79.36136363636366,
+   "summary": "c8=Q+ is the engine's choice at depth 4, with an evaluation of +0.40 pawns for White."
+  },
+  {
+   "id": "endgame-032",
+   "category": "endgame",
+   "move": "Kc6",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -14,
+   "cp_loss": 0,
+   "sf_line_material_gain": -100,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 48,
+   "words_per_sentence": 7.0,
+   "flesch": 61.95285714285717,
+   "summary": "Kc6 is the engine's choice at depth 4, with an evaluation of -0.62 pawns for Black."
+  },
+  {
+   "id": "endgame-033",
+   "category": "endgame",
+   "move": "Kc7",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -5,
+   "cp_loss": 0,
+   "sf_line_material_gain": -220,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 188,
+   "words_per_sentence": 6.8,
+   "flesch": 60.59182352941181,
+   "summary": "Kc7 is the engine's choice at depth 4, with an evaluation of -1.93 pawns for Black."
+  },
+  {
+   "id": "endgame-034",
+   "category": "endgame",
+   "move": "b2",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 1,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 59,
+   "words_per_sentence": 7.5,
+   "flesch": 71.75850000000001,
+   "summary": "b2 is the engine's choice at depth 4, with an evaluation of -0.58 pawns for Black."
+  },
+  {
+   "id": "endgame-035",
+   "category": "endgame",
+   "move": "Kxa1",
+   "skipped": false,
+   "sentences": 9,
+   "grounded": 9,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": -99993,
+   "cp_loss": 1,
+   "sf_line_material_gain": 230,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 54,
+   "words_per_sentence": 7.777777777777778,
+   "flesch": 68.41484126984128,
+   "summary": "Kxa1 is the engine's choice at depth 4, with an evaluation of -9.46 pawns for Black."
+  },
+  {
+   "id": "endgame-036",
+   "category": "endgame",
+   "move": "Kb2",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": 0,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 65,
+   "words_per_sentence": 6.8,
+   "flesch": 60.59182352941181,
+   "summary": "Kb2 is the engine's choice at depth 4, with an evaluation of -0.65 pawns for White."
+  },
+  {
+   "id": "endgame-037",
+   "category": "endgame",
+   "move": "Ke5",
+   "skipped": false,
+   "sentences": 4,
+   "grounded": 4,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -4,
+   "cp_loss": 2,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 38,
+   "words_per_sentence": 7.5,
+   "flesch": 72.3225,
+   "summary": "Ke5 is the engine's choice at depth 4, with an evaluation of -0.42 pawns for White."
+  },
+  {
+   "id": "endgame-038",
+   "category": "endgame",
+   "move": "Kc1",
+   "skipped": false,
+   "sentences": 4,
+   "grounded": 4,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -29,
+   "cp_loss": 8,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": null,
+   "eval_abs_diff": 191,
+   "words_per_sentence": 7.75,
+   "flesch": 73.43326612903226,
+   "summary": "Kc1 is the engine's choice at depth 4, with an evaluation of -2.20 pawns for White."
+  },
+  {
+   "id": "endgame-039",
+   "category": "endgame",
+   "move": "c4",
+   "skipped": false,
+   "sentences": 10,
+   "grounded": 10,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": [
+     true
+    ]
+   },
+   "sf_move_cp": 1895,
+   "cp_loss": 0,
+   "sf_line_material_gain": 800,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 0,
+   "words_per_sentence": 7.9,
+   "flesch": 76.73548734177218,
+   "summary": "c4 is the engine's choice at depth 4, with an evaluation of +10.22 pawns for White."
+  },
+  {
+   "id": "endgame-040",
+   "category": "endgame",
+   "move": "Ke2",
+   "skipped": false,
+   "sentences": 5,
+   "grounded": 5,
+   "summary_names_move": true,
+   "legal": true,
+   "claims": {
+    "checkmate": [],
+    "mate_in": [],
+    "material": []
+   },
+   "sf_move_cp": -655,
+   "cp_loss": 0,
+   "sf_line_material_gain": 0,
+   "eval_sign_agree": true,
+   "eval_abs_diff": 558,
+   "words_per_sentence": 7.0,
+   "flesch": 61.95285714285717,
+   "summary": "Ke2 is the engine's choice at depth 4, with an evaluation of -0.97 pawns for Black."
+  }
+ ]
+}

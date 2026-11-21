@@ -1,0 +1,399 @@
+{
+ "seconds_per_move": 0.5,
+ "levels": [
+  1320,
+  1500,
+  1700
+ ],
+ "elo": 1668.8643974608785,
+ "ci95": [
+  1554.2400290157616,
+  1783.4887659059955
+ ],
+ "games": [
+  {
+   "elo": 1320,
+   "opening": 0,
+   "ours_white": true,
+   "score": 1.0,
+   "plies": 135,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1320,
+   "opening": 0,
+   "ours_white": false,
+   "score": 1.0,
+   "plies": 34,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1320,
+   "opening": 1,
+   "ours_white": true,
+   "score": 1.0,
+   "plies": 101,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1320,
+   "opening": 1,
+   "ours_white": false,
+   "score": 1.0,
+   "plies": 104,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1320,
+   "opening": 2,
+   "ours_white": true,
+   "score": 1.0,
+   "plies": 63,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1320,
+   "opening": 2,
+   "ours_white": false,
+   "score": 0.5,
+   "plies": 200,
+   "termination": "MAX_PLIES"
+  },
+  {
+   "elo": 1320,
+   "opening": 3,
+   "ours_white": true,
+   "score": 1.0,
+   "plies": 71,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1320,
+   "opening": 3,
+   "ours_white": false,
+   "score": 0.5,
+   "plies": 200,
+   "termination": "MAX_PLIES"
+  },
+  {
+   "elo": 1320,
+   "opening": 4,
+   "ours_white": true,
+   "score": 1.0,
+   "plies": 63,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1320,
+   "opening": 4,
+   "ours_white": false,
+   "score": 1.0,
+   "plies": 70,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1320,
+   "opening": 5,
+   "ours_white": true,
+   "score": 0.0,
+   "plies": 42,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1320,
+   "opening": 5,
+   "ours_white": false,
+   "score": 1.0,
+   "plies": 76,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1320,
+   "opening": 6,
+   "ours_white": true,
+   "score": 1.0,
+   "plies": 105,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1320,
+   "opening": 6,
+   "ours_white": false,
+   "score": 0.5,
+   "plies": 104,
+   "termination": "THREEFOLD_REPETITION"
+  },
+  {
+   "elo": 1320,
+   "opening": 7,
+   "ours_white": true,
+   "score": 1.0,
+   "plies": 117,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1320,
+   "opening": 7,
+   "ours_white": false,
+   "score": 1.0,
+   "plies": 44,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1500,
+   "opening": 0,
+   "ours_white": true,
+   "score": 1.0,
+   "plies": 53,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1500,
+   "opening": 0,
+   "ours_white": false,
+   "score": 1.0,
+   "plies": 72,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1500,
+   "opening": 1,
+   "ours_white": true,
+   "score": 1.0,
+   "plies": 77,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1500,
+   "opening": 1,
+   "ours_white": false,
+   "score": 1.0,
+   "plies": 106,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1500,
+   "opening": 2,
+   "ours_white": true,
+   "score": 1.0,
+   "plies": 83,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1500,
+   "opening": 2,
+   "ours_white": false,
+   "score": 0.0,
+   "plies": 55,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1500,
+   "opening": 3,
+   "ours_white": true,
+   "score": 0.5,
+   "plies": 63,
+   "termination": "THREEFOLD_REPETITION"
+  },
+  {
+   "elo": 1500,
+   "opening": 3,
+   "ours_white": false,
+   "score": 0.0,
+   "plies": 67,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1500,
+   "opening": 4,
+   "ours_white": true,
+   "score": 1.0,
+   "plies": 59,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1500,
+   "opening": 4,
+   "ours_white": false,
+   "score": 1.0,
+   "plies": 50,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1500,
+   "opening": 5,
+   "ours_white": true,
+   "score": 1.0,
+   "plies": 99,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1500,
+   "opening": 5,
+   "ours_white": false,
+   "score": 1.0,
+   "plies": 98,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1500,
+   "opening": 6,
+   "ours_white": true,
+   "score": 1.0,
+   "plies": 73,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1500,
+   "opening": 6,
+   "ours_white": false,
+   "score": 1.0,
+   "plies": 140,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1500,
+   "opening": 7,
+   "ours_white": true,
+   "score": 1.0,
+   "plies": 73,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1500,
+   "opening": 7,
+   "ours_white": false,
+   "score": 0.5,
+   "plies": 200,
+   "termination": "MAX_PLIES"
+  },
+  {
+   "elo": 1700,
+   "opening": 0,
+   "ours_white": true,
+   "score": 0.5,
+   "plies": 170,
+   "termination": "INSUFFICIENT_MATERIAL"
+  },
+  {
+   "elo": 1700,
+   "opening": 0,
+   "ours_white": false,
+   "score": 0.0,
+   "plies": 83,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1700,
+   "opening": 1,
+   "ours_white": true,
+   "score": 0.0,
+   "plies": 120,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1700,
+   "opening": 1,
+   "ours_white": false,
+   "score": 1.0,
+   "plies": 86,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1700,
+   "opening": 2,
+   "ours_white": true,
+   "score": 0.0,
+   "plies": 140,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1700,
+   "opening": 2,
+   "ours_white": false,
+   "score": 0.5,
+   "plies": 199,
+   "termination": "INSUFFICIENT_MATERIAL"
+  },
+  {
+   "elo": 1700,
+   "opening": 3,
+   "ours_white": true,
+   "score": 0.0,
+   "plies": 58,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1700,
+   "opening": 3,
+   "ours_white": false,
+   "score": 0.0,
+   "plies": 185,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1700,
+   "opening": 4,
+   "ours_white": true,
+   "score": 1.0,
+   "plies": 137,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1700,
+   "opening": 4,
+   "ours_white": false,
+   "score": 0.0,
+   "plies": 61,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1700,
+   "opening": 5,
+   "ours_white": true,
+   "score": 1.0,
+   "plies": 61,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1700,
+   "opening": 5,
+   "ours_white": false,
+   "score": 0.0,
+   "plies": 115,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1700,
+   "opening": 6,
+   "ours_white": true,
+   "score": 1.0,
+   "plies": 131,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1700,
+   "opening": 6,
+   "ours_white": false,
+   "score": 1.0,
+   "plies": 180,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1700,
+   "opening": 7,
+   "ours_white": true,
+   "score": 0.0,
+   "plies": 84,
+   "termination": "CHECKMATE"
+  },
+  {
+   "elo": 1700,
+   "opening": 7,
+   "ours_white": false,
+   "score": 0.5,
+   "plies": 196,
+   "termination": "THREEFOLD_REPETITION"
+  }
+ ]
+}

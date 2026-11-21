@@ -1,0 +1,602 @@
+[
+  {
+    "experiment": "E1 Minimax",
+    "position": "start",
+    "depth": 3,
+    "best_move": "b1c3",
+    "score": 72,
+    "nodes": 9322,
+    "time": 0.5183,
+    "nps": 17984
+  },
+  {
+    "experiment": "E1 Minimax",
+    "position": "kiwipete",
+    "depth": 3,
+    "best_move": "e2a6",
+    "score": 506,
+    "nodes": 99949,
+    "time": 5.8566,
+    "nps": 17066
+  },
+  {
+    "experiment": "E1 Minimax",
+    "position": "endgame",
+    "depth": 3,
+    "best_move": "b4c4",
+    "score": 120,
+    "nodes": 3017,
+    "time": 0.1134,
+    "nps": 26614
+  },
+  {
+    "experiment": "E1 Minimax",
+    "position": "tactical",
+    "depth": 3,
+    "best_move": "d2d4",
+    "score": -81,
+    "nodes": 9737,
+    "time": 0.9042,
+    "nps": 10769
+  },
+  {
+    "experiment": "E1 Minimax",
+    "position": "middlegame",
+    "depth": 3,
+    "best_move": "d7c8q",
+    "score": 572,
+    "nodes": 63909,
+    "time": 3.4701,
+    "nps": 18417
+  },
+  {
+    "experiment": "E2 Negamax",
+    "position": "start",
+    "depth": 3,
+    "best_move": "b1c3",
+    "score": 72,
+    "nodes": 9322,
+    "time": 0.5241,
+    "nps": 17787
+  },
+  {
+    "experiment": "E2 Negamax",
+    "position": "kiwipete",
+    "depth": 3,
+    "best_move": "e2a6",
+    "score": 506,
+    "nodes": 99949,
+    "time": 6.0568,
+    "nps": 16501
+  },
+  {
+    "experiment": "E2 Negamax",
+    "position": "endgame",
+    "depth": 3,
+    "best_move": "b4c4",
+    "score": 120,
+    "nodes": 3017,
+    "time": 0.1155,
+    "nps": 26115
+  },
+  {
+    "experiment": "E2 Negamax",
+    "position": "tactical",
+    "depth": 3,
+    "best_move": "d2d4",
+    "score": -81,
+    "nodes": 9737,
+    "time": 0.9109,
+    "nps": 10689
+  },
+  {
+    "experiment": "E2 Negamax",
+    "position": "middlegame",
+    "depth": 3,
+    "best_move": "d7c8q",
+    "score": 572,
+    "nodes": 63909,
+    "time": 3.5645,
+    "nps": 17929
+  },
+  {
+    "experiment": "E3 Alpha-Beta",
+    "position": "start",
+    "depth": 3,
+    "best_move": "b1c3",
+    "score": 72,
+    "nodes": 1355,
+    "time": 0.0953,
+    "nps": 14223
+  },
+  {
+    "experiment": "E3 Alpha-Beta",
+    "position": "kiwipete",
+    "depth": 3,
+    "best_move": "e2a6",
+    "score": 506,
+    "nodes": 11280,
+    "time": 0.9167,
+    "nps": 12304
+  },
+  {
+    "experiment": "E3 Alpha-Beta",
+    "position": "endgame",
+    "depth": 3,
+    "best_move": "b4c4",
+    "score": 120,
+    "nodes": 568,
+    "time": 0.0254,
+    "nps": 22345
+  },
+  {
+    "experiment": "E3 Alpha-Beta",
+    "position": "tactical",
+    "depth": 3,
+    "best_move": "d2d4",
+    "score": -81,
+    "nodes": 939,
+    "time": 0.0783,
+    "nps": 11997
+  },
+  {
+    "experiment": "E3 Alpha-Beta",
+    "position": "middlegame",
+    "depth": 3,
+    "best_move": "d7c8q",
+    "score": 572,
+    "nodes": 10107,
+    "time": 0.6679,
+    "nps": 15133
+  },
+  {
+    "experiment": "E4 + Move Ordering",
+    "position": "start",
+    "depth": 3,
+    "best_move": "b1c3",
+    "score": 72,
+    "nodes": 835,
+    "time": 0.0544,
+    "nps": 15345
+  },
+  {
+    "experiment": "E4 + Move Ordering",
+    "position": "kiwipete",
+    "depth": 3,
+    "best_move": "e2a6",
+    "score": 506,
+    "nodes": 3515,
+    "time": 0.2667,
+    "nps": 13181
+  },
+  {
+    "experiment": "E4 + Move Ordering",
+    "position": "endgame",
+    "depth": 3,
+    "best_move": "b4c4",
+    "score": 120,
+    "nodes": 425,
+    "time": 0.0178,
+    "nps": 23817
+  },
+  {
+    "experiment": "E4 + Move Ordering",
+    "position": "tactical",
+    "depth": 3,
+    "best_move": "d2d4",
+    "score": -81,
+    "nodes": 487,
+    "time": 0.0411,
+    "nps": 11859
+  },
+  {
+    "experiment": "E4 + Move Ordering",
+    "position": "middlegame",
+    "depth": 3,
+    "best_move": "d7c8q",
+    "score": 572,
+    "nodes": 2325,
+    "time": 0.1411,
+    "nps": 16472
+  },
+  {
+    "experiment": "E5 + Iterative Deepening",
+    "position": "start",
+    "depth": 3,
+    "best_move": "b1c3",
+    "score": 72,
+    "nodes": 796,
+    "time": 0.0523,
+    "nps": 15228
+  },
+  {
+    "experiment": "E5 + Iterative Deepening",
+    "position": "kiwipete",
+    "depth": 3,
+    "best_move": "e2a6",
+    "score": 506,
+    "nodes": 2961,
+    "time": 0.2258,
+    "nps": 13114
+  },
+  {
+    "experiment": "E5 + Iterative Deepening",
+    "position": "endgame",
+    "depth": 3,
+    "best_move": "b4c4",
+    "score": 120,
+    "nodes": 488,
+    "time": 0.0209,
+    "nps": 23370
+  },
+  {
+    "experiment": "E5 + Iterative Deepening",
+    "position": "tactical",
+    "depth": 3,
+    "best_move": "d2d4",
+    "score": -81,
+    "nodes": 369,
+    "time": 0.0333,
+    "nps": 11089
+  },
+  {
+    "experiment": "E5 + Iterative Deepening",
+    "position": "middlegame",
+    "depth": 3,
+    "best_move": "d7c8q",
+    "score": 572,
+    "nodes": 2211,
+    "time": 0.1313,
+    "nps": 16838
+  },
+  {
+    "experiment": "E6 + Quiescence",
+    "position": "start",
+    "depth": 3,
+    "best_move": "b1c3",
+    "score": 72,
+    "nodes": 1517,
+    "time": 0.0579,
+    "nps": 26208
+  },
+  {
+    "experiment": "E6 + Quiescence",
+    "position": "kiwipete",
+    "depth": 3,
+    "best_move": "e2a6",
+    "score": 92,
+    "nodes": 18964,
+    "time": 1.3352,
+    "nps": 14203
+  },
+  {
+    "experiment": "E6 + Quiescence",
+    "position": "endgame",
+    "depth": 3,
+    "best_move": "b4c4",
+    "score": 26,
+    "nodes": 1146,
+    "time": 0.0348,
+    "nps": 32968
+  },
+  {
+    "experiment": "E6 + Quiescence",
+    "position": "tactical",
+    "depth": 3,
+    "best_move": "c4c5",
+    "score": -382,
+    "nodes": 3229,
+    "time": 0.2525,
+    "nps": 12788
+  },
+  {
+    "experiment": "E6 + Quiescence",
+    "position": "middlegame",
+    "depth": 3,
+    "best_move": "d7c8q",
+    "score": 572,
+    "nodes": 4560,
+    "time": 0.1599,
+    "nps": 28521
+  },
+  {
+    "experiment": "E7 + Transposition Table",
+    "position": "start",
+    "depth": 3,
+    "best_move": "b1c3",
+    "score": 72,
+    "nodes": 1241,
+    "time": 0.0511,
+    "nps": 24282
+  },
+  {
+    "experiment": "E7 + Transposition Table",
+    "position": "kiwipete",
+    "depth": 3,
+    "best_move": "e2a6",
+    "score": 92,
+    "nodes": 18460,
+    "time": 1.324,
+    "nps": 13942
+  },
+  {
+    "experiment": "E7 + Transposition Table",
+    "position": "endgame",
+    "depth": 3,
+    "best_move": "b4c4",
+    "score": 26,
+    "nodes": 788,
+    "time": 0.0273,
+    "nps": 28886
+  },
+  {
+    "experiment": "E7 + Transposition Table",
+    "position": "tactical",
+    "depth": 3,
+    "best_move": "c4c5",
+    "score": -382,
+    "nodes": 3205,
+    "time": 0.2502,
+    "nps": 12808
+  },
+  {
+    "experiment": "E7 + Transposition Table",
+    "position": "middlegame",
+    "depth": 3,
+    "best_move": "d7c8q",
+    "score": 572,
+    "nodes": 4310,
+    "time": 0.1572,
+    "nps": 27410
+  },
+  {
+    "experiment": "E3 Alpha-Beta",
+    "position": "start",
+    "depth": 4,
+    "best_move": "b1c3",
+    "score": 0,
+    "nodes": 7205,
+    "time": 0.4269,
+    "nps": 16878
+  },
+  {
+    "experiment": "E3 Alpha-Beta",
+    "position": "kiwipete",
+    "depth": 4,
+    "best_move": "e2a6",
+    "score": -6,
+    "nodes": 36120,
+    "time": 2.3815,
+    "nps": 15167
+  },
+  {
+    "experiment": "E3 Alpha-Beta",
+    "position": "endgame",
+    "depth": 4,
+    "best_move": "b4c4",
+    "score": -29,
+    "nodes": 2304,
+    "time": 0.0901,
+    "nps": 25566
+  },
+  {
+    "experiment": "E3 Alpha-Beta",
+    "position": "tactical",
+    "depth": 4,
+    "best_move": "g1h1",
+    "score": -572,
+    "nodes": 9083,
+    "time": 0.5799,
+    "nps": 15664
+  },
+  {
+    "experiment": "E3 Alpha-Beta",
+    "position": "middlegame",
+    "depth": 4,
+    "best_move": "d7c8q",
+    "score": 275,
+    "nodes": 75465,
+    "time": 4.9391,
+    "nps": 15279
+  },
+  {
+    "experiment": "E4 + Move Ordering",
+    "position": "start",
+    "depth": 4,
+    "best_move": "b1c3",
+    "score": 0,
+    "nodes": 1705,
+    "time": 0.0981,
+    "nps": 17386
+  },
+  {
+    "experiment": "E4 + Move Ordering",
+    "position": "kiwipete",
+    "depth": 4,
+    "best_move": "e2a6",
+    "score": -6,
+    "nodes": 15013,
+    "time": 1.0953,
+    "nps": 13706
+  },
+  {
+    "experiment": "E4 + Move Ordering",
+    "position": "endgame",
+    "depth": 4,
+    "best_move": "b4c4",
+    "score": -29,
+    "nodes": 1302,
+    "time": 0.0517,
+    "nps": 25167
+  },
+  {
+    "experiment": "E4 + Move Ordering",
+    "position": "tactical",
+    "depth": 4,
+    "best_move": "g1h1",
+    "score": -572,
+    "nodes": 5785,
+    "time": 0.4142,
+    "nps": 13965
+  },
+  {
+    "experiment": "E4 + Move Ordering",
+    "position": "middlegame",
+    "depth": 4,
+    "best_move": "d7c8q",
+    "score": 275,
+    "nodes": 7851,
+    "time": 0.4731,
+    "nps": 16595
+  },
+  {
+    "experiment": "E5 + Iterative Deepening",
+    "position": "start",
+    "depth": 4,
+    "best_move": "b1c3",
+    "score": 0,
+    "nodes": 2816,
+    "time": 0.1755,
+    "nps": 16043
+  },
+  {
+    "experiment": "E5 + Iterative Deepening",
+    "position": "kiwipete",
+    "depth": 4,
+    "best_move": "e2a6",
+    "score": -6,
+    "nodes": 9967,
+    "time": 0.7075,
+    "nps": 14087
+  },
+  {
+    "experiment": "E5 + Iterative Deepening",
+    "position": "endgame",
+    "depth": 4,
+    "best_move": "b4c4",
+    "score": -29,
+    "nodes": 1475,
+    "time": 0.0601,
+    "nps": 24538
+  },
+  {
+    "experiment": "E5 + Iterative Deepening",
+    "position": "tactical",
+    "depth": 4,
+    "best_move": "g1h1",
+    "score": -572,
+    "nodes": 5757,
+    "time": 0.4196,
+    "nps": 13720
+  },
+  {
+    "experiment": "E5 + Iterative Deepening",
+    "position": "middlegame",
+    "depth": 4,
+    "best_move": "d7c8q",
+    "score": 275,
+    "nodes": 5909,
+    "time": 0.3214,
+    "nps": 18386
+  },
+  {
+    "experiment": "E6 + Quiescence",
+    "position": "start",
+    "depth": 4,
+    "best_move": "b1c3",
+    "score": 0,
+    "nodes": 5321,
+    "time": 0.2328,
+    "nps": 22858
+  },
+  {
+    "experiment": "E6 + Quiescence",
+    "position": "kiwipete",
+    "depth": 4,
+    "best_move": "e2a6",
+    "score": 92,
+    "nodes": 41689,
+    "time": 2.6131,
+    "nps": 15954
+  },
+  {
+    "experiment": "E6 + Quiescence",
+    "position": "endgame",
+    "depth": 4,
+    "best_move": "b4f4",
+    "score": 36,
+    "nodes": 3642,
+    "time": 0.1191,
+    "nps": 30583
+  },
+  {
+    "experiment": "E6 + Quiescence",
+    "position": "tactical",
+    "depth": 4,
+    "best_move": "d2d4",
+    "score": -423,
+    "nodes": 12504,
+    "time": 0.6367,
+    "nps": 19638
+  },
+  {
+    "experiment": "E6 + Quiescence",
+    "position": "middlegame",
+    "depth": 4,
+    "best_move": "d7c8q",
+    "score": 512,
+    "nodes": 15077,
+    "time": 0.6947,
+    "nps": 21703
+  },
+  {
+    "experiment": "E7 + Transposition Table",
+    "position": "start",
+    "depth": 4,
+    "best_move": "b1c3",
+    "score": 0,
+    "nodes": 3793,
+    "time": 0.1869,
+    "nps": 20292
+  },
+  {
+    "experiment": "E7 + Transposition Table",
+    "position": "kiwipete",
+    "depth": 4,
+    "best_move": "e2a6",
+    "score": 92,
+    "nodes": 30607,
+    "time": 2.1014,
+    "nps": 14565
+  },
+  {
+    "experiment": "E7 + Transposition Table",
+    "position": "endgame",
+    "depth": 4,
+    "best_move": "b4f4",
+    "score": 36,
+    "nodes": 2073,
+    "time": 0.0725,
+    "nps": 28606
+  },
+  {
+    "experiment": "E7 + Transposition Table",
+    "position": "tactical",
+    "depth": 4,
+    "best_move": "d2d4",
+    "score": -423,
+    "nodes": 11766,
+    "time": 0.5968,
+    "nps": 19714
+  },
+  {
+    "experiment": "E7 + Transposition Table",
+    "position": "middlegame",
+    "depth": 4,
+    "best_move": "d7c8q",
+    "score": 512,
+    "nodes": 11284,
+    "time": 0.6154,
+    "nps": 18335
+  }
+]

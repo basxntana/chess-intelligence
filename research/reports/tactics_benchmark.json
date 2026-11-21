@@ -1,0 +1,348 @@
+{
+  "metrics": {
+    "checkmate_threat": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "discovered_attack": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "double_attack": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "fork": {
+      "tp": 3,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "hanging_piece": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "pin": {
+      "tp": 5,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    },
+    "skewer": {
+      "tp": 2,
+      "fp": 0,
+      "fn": 0,
+      "precision": 1.0,
+      "recall": 1.0,
+      "f1": 1.0
+    }
+  },
+  "cases": [
+    {
+      "id": "knight_fork_king_rook",
+      "expected": [
+        "fork"
+      ],
+      "detected": [
+        "fork"
+      ],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "knight_fork_refuted",
+      "expected": [
+        "hanging_piece"
+      ],
+      "detected": [
+        "hanging_piece"
+      ],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "queen_fork_three",
+      "expected": [
+        "fork"
+      ],
+      "detected": [
+        "fork"
+      ],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "pawn_fork_supported",
+      "expected": [
+        "fork"
+      ],
+      "detected": [
+        "fork"
+      ],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "pawn_fork_unsupported",
+      "expected": [
+        "hanging_piece"
+      ],
+      "detected": [
+        "hanging_piece"
+      ],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "queen_check_blunder",
+      "expected": [
+        "hanging_piece"
+      ],
+      "detected": [
+        "hanging_piece"
+      ],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "bishop_pin_to_king",
+      "expected": [
+        "pin"
+      ],
+      "detected": [
+        "pin"
+      ],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "no_pin_lesser_piece_behind",
+      "expected": [],
+      "detected": [],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "bishop_skewer_king_rook",
+      "expected": [
+        "skewer"
+      ],
+      "detected": [
+        "skewer"
+      ],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "discovered_check_wins_queen",
+      "expected": [
+        "discovered_attack",
+        "double_attack"
+      ],
+      "detected": [
+        "discovered_attack",
+        "double_attack"
+      ],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "discovered_attack_no_gain",
+      "expected": [],
+      "detected": [],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "pawn_push_double_attack",
+      "expected": [
+        "discovered_attack",
+        "double_attack"
+      ],
+      "detected": [
+        "discovered_attack",
+        "double_attack"
+      ],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "double_attack_refuted_by_back_rank",
+      "expected": [],
+      "detected": [],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "double_attack_refuted_by_counterattack",
+      "expected": [],
+      "detected": [],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "double_attack_refuted_by_check",
+      "expected": [],
+      "detected": [],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "queen_h5_mate_threat",
+      "expected": [
+        "checkmate_threat",
+        "pin"
+      ],
+      "detected": [
+        "checkmate_threat",
+        "pin"
+      ],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "quiet_opening_move",
+      "expected": [],
+      "detected": [],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "knight_development",
+      "expected": [],
+      "detected": [],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "rook_lift_back_rank_threat",
+      "expected": [
+        "checkmate_threat"
+      ],
+      "detected": [
+        "checkmate_threat"
+      ],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "pos_hanging_and_pinned",
+      "expected": [
+        "hanging_piece:e5",
+        "pin:e5"
+      ],
+      "detected": [
+        "hanging_piece:e5",
+        "pin:e5"
+      ],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "pos_pinned_but_defended",
+      "expected": [
+        "pin:e5"
+      ],
+      "detected": [
+        "pin:e5"
+      ],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "pos_insufficiently_defended",
+      "expected": [
+        "hanging_piece:e5"
+      ],
+      "detected": [
+        "hanging_piece:e5"
+      ],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "pos_skewer_through_king",
+      "expected": [
+        "skewer:a5"
+      ],
+      "detected": [
+        "skewer:a5"
+      ],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "pos_back_rank_threat",
+      "expected": [
+        "checkmate_threat:black"
+      ],
+      "detected": [
+        "checkmate_threat:black"
+      ],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "pos_start",
+      "expected": [],
+      "detected": [],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "pos_relative_pin_to_queen",
+      "expected": [
+        "pin:c6"
+      ],
+      "detected": [
+        "pin:c6"
+      ],
+      "false_positives": [],
+      "false_negatives": []
+    },
+    {
+      "id": "pos_queen_trade_offer",
+      "expected": [],
+      "detected": [],
+      "false_positives": [],
+      "false_negatives": []
+    }
+  ],
+  "random_positions": {
+    "n": 200,
+    "findings": {
+      "hanging_piece": 690,
+      "pin": 190,
+      "skewer": 18,
+      "checkmate_threat": 1
+    },
+    "violations": [],
+    "move_findings_first_move": {
+      "hanging_piece": 13,
+      "pin": 2,
+      "fork": 1,
+      "double_attack": 1,
+      "material_gain": 2
+    }
+  }
+}

@@ -1,0 +1,838 @@
+{
+  "depth": 3,
+  "max_plies": 160,
+  "results": [
+    {
+      "variant": "material only",
+      "games": 20,
+      "wins": 0,
+      "draws": 0,
+      "losses": 20,
+      "score": 0.0,
+      "elo_vs_full": -798,
+      "elo_95ci": [
+        -798,
+        -536
+      ],
+      "eval_us": 18.6,
+      "endings": {
+        "checkmate": 20
+      }
+    },
+    {
+      "variant": "material + PST",
+      "games": 20,
+      "wins": 7,
+      "draws": 2,
+      "losses": 11,
+      "score": 0.4,
+      "elo_vs_full": -70,
+      "elo_95ci": [
+        -257,
+        81
+      ],
+      "eval_us": 25.2,
+      "endings": {
+        "checkmate": 18,
+        "ply_limit": 2
+      }
+    },
+    {
+      "variant": "full, static weights",
+      "games": 20,
+      "wins": 5,
+      "draws": 2,
+      "losses": 13,
+      "score": 0.3,
+      "elo_vs_full": -147,
+      "elo_95ci": [
+        -383,
+        1
+      ],
+      "eval_us": 81.6,
+      "endings": {
+        "checkmate": 18,
+        "insufficient_material": 1,
+        "ply_limit": 1
+      }
+    },
+    {
+      "variant": "full - mobility",
+      "games": 20,
+      "wins": 6,
+      "draws": 5,
+      "losses": 9,
+      "score": 0.425,
+      "elo_vs_full": -53,
+      "elo_95ci": [
+        -232,
+        101
+      ],
+      "eval_us": 77.5,
+      "endings": {
+        "checkmate": 15,
+        "ply_limit": 5
+      }
+    },
+    {
+      "variant": "full - pawn structure",
+      "games": 20,
+      "wins": 5,
+      "draws": 6,
+      "losses": 9,
+      "score": 0.4,
+      "elo_vs_full": -70,
+      "elo_95ci": [
+        -257,
+        81
+      ],
+      "eval_us": 58.2,
+      "endings": {
+        "checkmate": 14,
+        "ply_limit": 6
+      }
+    },
+    {
+      "variant": "full - king safety",
+      "games": 20,
+      "wins": 7,
+      "draws": 4,
+      "losses": 9,
+      "score": 0.45,
+      "elo_vs_full": -35,
+      "elo_95ci": [
+        -208,
+        121
+      ],
+      "eval_us": 75.8,
+      "endings": {
+        "checkmate": 16,
+        "insufficient_material": 1,
+        "ply_limit": 2,
+        "threefold_repetition": 1
+      }
+    }
+  ],
+  "games": [
+    [
+      "material only",
+      0,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material only",
+      1,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material only",
+      2,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material only",
+      3,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material only",
+      4,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material only",
+      5,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material only",
+      6,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material only",
+      7,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material only",
+      8,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material only",
+      9,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material only",
+      10,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material only",
+      11,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material only",
+      12,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material only",
+      13,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material only",
+      14,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material only",
+      15,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material only",
+      16,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material only",
+      17,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material only",
+      18,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material only",
+      19,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material + PST",
+      0,
+      "ply_limit",
+      0.5
+    ],
+    [
+      "material + PST",
+      1,
+      "ply_limit",
+      0.5
+    ],
+    [
+      "material + PST",
+      2,
+      "checkmate",
+      1.0
+    ],
+    [
+      "material + PST",
+      3,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material + PST",
+      4,
+      "checkmate",
+      1.0
+    ],
+    [
+      "material + PST",
+      5,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material + PST",
+      6,
+      "checkmate",
+      1.0
+    ],
+    [
+      "material + PST",
+      7,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material + PST",
+      8,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material + PST",
+      9,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material + PST",
+      10,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material + PST",
+      11,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material + PST",
+      12,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material + PST",
+      13,
+      "checkmate",
+      1.0
+    ],
+    [
+      "material + PST",
+      14,
+      "checkmate",
+      1.0
+    ],
+    [
+      "material + PST",
+      15,
+      "checkmate",
+      1.0
+    ],
+    [
+      "material + PST",
+      16,
+      "checkmate",
+      1.0
+    ],
+    [
+      "material + PST",
+      17,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material + PST",
+      18,
+      "checkmate",
+      0.0
+    ],
+    [
+      "material + PST",
+      19,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full, static weights",
+      0,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full, static weights",
+      1,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full, static weights",
+      2,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full, static weights",
+      3,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full, static weights",
+      4,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full, static weights",
+      5,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full, static weights",
+      6,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full, static weights",
+      7,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full, static weights",
+      8,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full, static weights",
+      9,
+      "insufficient_material",
+      0.5
+    ],
+    [
+      "full, static weights",
+      10,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full, static weights",
+      11,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full, static weights",
+      12,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full, static weights",
+      13,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full, static weights",
+      14,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full, static weights",
+      15,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full, static weights",
+      16,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full, static weights",
+      17,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full, static weights",
+      18,
+      "ply_limit",
+      0.5
+    ],
+    [
+      "full, static weights",
+      19,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - mobility",
+      0,
+      "ply_limit",
+      0.5
+    ],
+    [
+      "full - mobility",
+      1,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - mobility",
+      2,
+      "ply_limit",
+      0.5
+    ],
+    [
+      "full - mobility",
+      3,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full - mobility",
+      4,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - mobility",
+      5,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full - mobility",
+      6,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - mobility",
+      7,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full - mobility",
+      8,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - mobility",
+      9,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full - mobility",
+      10,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full - mobility",
+      11,
+      "ply_limit",
+      0.5
+    ],
+    [
+      "full - mobility",
+      12,
+      "ply_limit",
+      0.5
+    ],
+    [
+      "full - mobility",
+      13,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - mobility",
+      14,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - mobility",
+      15,
+      "ply_limit",
+      0.5
+    ],
+    [
+      "full - mobility",
+      16,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full - mobility",
+      17,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - mobility",
+      18,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - mobility",
+      19,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - pawn structure",
+      0,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full - pawn structure",
+      1,
+      "ply_limit",
+      0.5
+    ],
+    [
+      "full - pawn structure",
+      2,
+      "ply_limit",
+      0.5
+    ],
+    [
+      "full - pawn structure",
+      3,
+      "ply_limit",
+      0.5
+    ],
+    [
+      "full - pawn structure",
+      4,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full - pawn structure",
+      5,
+      "ply_limit",
+      0.5
+    ],
+    [
+      "full - pawn structure",
+      6,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full - pawn structure",
+      7,
+      "ply_limit",
+      0.5
+    ],
+    [
+      "full - pawn structure",
+      8,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - pawn structure",
+      9,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - pawn structure",
+      10,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full - pawn structure",
+      11,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full - pawn structure",
+      12,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - pawn structure",
+      13,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - pawn structure",
+      14,
+      "ply_limit",
+      0.5
+    ],
+    [
+      "full - pawn structure",
+      15,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - pawn structure",
+      16,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - pawn structure",
+      17,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - pawn structure",
+      18,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - pawn structure",
+      19,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - king safety",
+      0,
+      "threefold_repetition",
+      0.5
+    ],
+    [
+      "full - king safety",
+      1,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full - king safety",
+      2,
+      "ply_limit",
+      0.5
+    ],
+    [
+      "full - king safety",
+      3,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - king safety",
+      4,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - king safety",
+      5,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - king safety",
+      6,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full - king safety",
+      7,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full - king safety",
+      8,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full - king safety",
+      9,
+      "insufficient_material",
+      0.5
+    ],
+    [
+      "full - king safety",
+      10,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - king safety",
+      11,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - king safety",
+      12,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - king safety",
+      13,
+      "ply_limit",
+      0.5
+    ],
+    [
+      "full - king safety",
+      14,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - king safety",
+      15,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full - king safety",
+      16,
+      "checkmate",
+      0.0
+    ],
+    [
+      "full - king safety",
+      17,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full - king safety",
+      18,
+      "checkmate",
+      1.0
+    ],
+    [
+      "full - king safety",
+      19,
+      "checkmate",
+      0.0
+    ]
+  ]
+}
